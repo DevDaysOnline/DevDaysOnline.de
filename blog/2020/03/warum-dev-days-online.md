@@ -16,4 +16,4 @@ Angedacht sind Vorraussichtlich 2 Tage, tagsüber, mit einigen Vorträgen, Inter
 Zwecks des ganzen ist die Entwickler Community mit guten Vorträgen und frischem Wissen zu versorgen. Aber auch den Veranstaltern der Konferenzen ein wenig unter die Arme zu greifen. Keiner hat große Geldreservern und es sind schon einige tausend Euro an Kosten angefallen
 die sich nicht mehr komplett zurückholen lassen. So hoffen wir auf eine freiwilligen Spende/Ticketkauf sowie ein paar Sponsoren die dieses Projekt unterstützen wollen.
 
-Bleibt hier am Ball um mitzubekommen was und wann es passiert. Folgt auf (twitter.com/DevDaysonline)[https://twitter.com/DevDaysOnline].
+Bleibt hier am Ball um mitzubekommen was und wann es passiert. Folgt auf [twitter.com/DevDaysonline](https://twitter.com/DevDaysOnline).
