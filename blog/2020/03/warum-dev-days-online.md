@@ -9,11 +9,11 @@ Im Zuge von Covid-19 sind die drei aus Community Konferencey [.NET Day Franken](
 
 Damit es nun im Mai nun doch eine kleine Konferenz stattfinden wurden die dev-days-online von [Albert Weinert)(https://twitter.com/DerAlbert) ins Leben gerufen.
 
-Dies soll nun gegen Ende April oder Anfang Mai stattfinden.
+Diese soll nun gegen Ende April oder Anfang Mai stattfinden, und Live gestreamt für alle die es sehen wollen.
 
-Angedacht sind Vorraussichtlich 2 Tage, Tagsüber, mit einigen Vorträgen, Interviews, viel einem Live Podcast und einem Gewinnspiel für alle Live Teilnehmer.
+Angedacht sind Vorraussichtlich 2 Tage, tagsüber, mit einigen Vorträgen, Interviews, vielleicht einem Live Podcast und einem Gewinnspiel für alle Live Teilnehmer. 
 
 Zwecks des ganzen ist die Entwickler Community mit guten Vorträgen und frischem Wissen zu versorgen. Aber auch den Veranstaltern der Konferenzen ein wenig unter die Arme zu greifen. Keiner hat große Geldreservern und es sind schon einige tausend Euro an Kosten angefallen
-die sich nicht mehr komplett zurückholen lassen. So hoffen wir auf freiwilligen Ticketkauf und ein paar Sponsoren die diese Projekt unterstützen wollen.
+die sich nicht mehr komplett zurückholen lassen. So hoffen wir auf eine freiwilligen Spende/Ticketkauf sowie ein paar Sponsoren die dieses Projekt unterstützen wollen.
 
 Bleibt hier am Ball um mitzubekommen was und wann es passiert. Folgt auf (twitter.com/DevDaysonline)[https://twitter.com/DevDaysOnline].
