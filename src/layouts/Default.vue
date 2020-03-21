@@ -1,9 +1,10 @@
 <template>
   <div class="layout">
     <header class="header">
-    
       <strong>
-        <g-link to="/">  <img class="logo" src="/dev-days-logo.svg" alt="Logo Dev Days"/></g-link>
+        <g-link to="/">
+          <img class="logo" src="/dev-days-logo.svg" alt="Logo Dev Days" />
+        </g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Startseite</g-link>
@@ -12,7 +13,7 @@
         <g-link class="nav__link" to="/about/">Über uns</g-link>
       </nav>
     </header>
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -54,5 +55,9 @@ body {
 
 .logo {
   width: 6em
+}
+
+ul {
+  list-style-type: none;
 }
 </style>

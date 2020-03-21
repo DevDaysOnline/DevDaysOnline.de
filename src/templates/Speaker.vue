@@ -1,19 +1,17 @@
 <template>
-<Layout>
-        <h3>{{ $page.speaker.name }}</h3>
+  <Layout>
+    <h3>{{ $page.speaker.name }}</h3>
 
+    <div v-html="$page.speaker.content"></div>
 
-<div v-html="$page.speaker.content"></div>
+    <h4>Sessions</h4>
 
-<h4>Sessions</h4>
-
-   <ul>
+    <ul>
       <li v-for="session in $page.speaker.sessions" :key="session._id">
-        <router-link :to="session.path"  v-html="session.title"/>
+        <router-link :to="session.path" v-html="session.title" />
       </li>
     </ul>
-
-</Layout>
+  </Layout>
 </template>
 
 <page-query>

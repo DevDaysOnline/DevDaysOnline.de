@@ -2,19 +2,22 @@
   <Layout>
     <h1>Willkommen bei dev-days-online!</h1>
 
-    <p>dev-days-online ist die Online Community Software
-       Enwickler Konferenz.</p>
+    <p>
+      dev-days-online ist die Online Community Software
+      Enwickler Konferenz.
+    </p>
 
-      
-   <p>Sie findet statt vom VON bis BIS</p> 
+    <p>Dies ist noch nicht die fertige Seite, dies ist nur ein Platzhalter und PoC</p>
 
-   <ul>
+    <p>Sie findet statt vom VON bis BIS</p>
+
+    <ul>
       <li v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
+        <span v-html="node.date" /> &nbsp;
         <router-link :to="node.path">
-          <h2 v-html="node.title"/>
+          <b v-html="node.title" />
         </router-link>
-        <span v-html="node.date"/>
-        <div v-html="node.description"/>
+        <div v-html="node.description" />
       </li>
     </ul>
   </Layout>
@@ -39,9 +42,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: "Hello, world!"
   }
-}
+};
 </script>
 
 <style>
