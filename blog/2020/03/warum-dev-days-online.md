@@ -5,9 +5,10 @@ description: "Wer wir was, wieso weshalb warum."
 slug: warum-dev-days-online
 ---
 
-Im Zuge von Covid-19 sind die drei aus Community Konferencey [.NET Day Franken](https://www.dotnet-day-franken.de), [dotnet Cologne](https://dotnet-cologne.de) und die [Magdeburger Developer Days](https://md-devdays.de/) entweder verschoben oder ganz abgesagt worden.
+Im Zuge von Covid-19 sind die drei aus Community Konferenzen [.NET Day Franken](https://www.dotnet-day-franken.de), [dotnet Cologne](https://dotnet-cologne.de) und die [Magdeburger Developer Days](https://md-devdays.de/) entweder verschoben oder ganz abgesagt worden. Und ob die 
+verschobenen dieses Jahr wirklich stattfinden können ist auch nicht klar.
 
-Damit es nun im Mai nun doch eine kleine Konferenz stattfinden wurden die dev-days-online von [Albert Weinert)(https://twitter.com/DerAlbert) ins Leben gerufen.
+Damit es nun im Mai nun doch eine kleine Konferenz stattfinden kann, wurden die dev-days-online von [Albert Weinert)(https://twitter.com/DerAlbert) ins Leben gerufen.
 
 Diese soll nun gegen Ende April oder Anfang Mai stattfinden, und Live gestreamt für alle die es sehen wollen.
 
