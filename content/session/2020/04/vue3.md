@@ -1,8 +1,8 @@
 ---
 title: Vue3 in 2020
 speakers:
- - albert-weinert
- - muescha-best 
+  - albert-weinert
+  - muescha-best
 slug: vue3-best-of-something
 ---
 

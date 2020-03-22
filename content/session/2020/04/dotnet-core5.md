@@ -1,7 +1,7 @@
 ---
 title: Die Zukunft von .NET
 speakers:
- - muescha-best 
+  - muescha-best
 slug: zukunft-dotnet
 ---
 

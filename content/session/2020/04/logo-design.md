@@ -1,7 +1,7 @@
 ---
 title: Logo Design
 speakers:
- - futura-oz
+  - futura-oz
 slug: logo-design
 ---
 

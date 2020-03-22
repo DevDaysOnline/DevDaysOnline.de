@@ -4,11 +4,13 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "prettify": "prettier --write \"./**/*.*(ts|tsx|json|md|js|html|css|scss|)\""
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.5.0",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "prettier": "^2.0.1"
   }
 }
