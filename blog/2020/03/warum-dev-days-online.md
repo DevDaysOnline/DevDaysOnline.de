@@ -1,7 +1,7 @@
 ---
 title: Warum finden die dev-days-online statt?
 date: 2020-03-21 16:00:00
-description: "Wer wir was, wieso weshalb warum."
+description: 'Wer wir was, wieso weshalb warum.'
 slug: warum-dev-days-online
 ---
 

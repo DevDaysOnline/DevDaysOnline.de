@@ -1,14 +1,14 @@
 <template>
-    <Layout>
-                <h3>Speakers</h3>        
-   <ul>
+  <Layout>
+    <h3>Speakers</h3>
+    <ul>
       <li v-for="{ node } in $page.allSpeaker.edges" :key="node._id">
         <router-link :to="node.path">
-          <h2 v-html="node.name"/>
+          <h2 v-html="node.name" />
         </router-link>
       </li>
     </ul>
-    </Layout>
+  </Layout>
 </template>
 
 <page-query>

@@ -5,7 +5,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "prettify": "prettier --write \"./**/*.*(ts|tsx|json|md|js|html|css|scss|)\""
+    "prettify": "prettier --write \"./**/*.*(js|ts|tsx|vue|json|md|html|css|scss|)\""
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",

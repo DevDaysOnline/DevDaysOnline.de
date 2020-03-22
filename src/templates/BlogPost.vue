@@ -1,10 +1,9 @@
 <template>
-<Layout>
-        <h3>{{ $page.blogPost.title }}</h3>
+  <Layout>
+    <h3>{{ $page.blogPost.title }}</h3>
 
-
-<div v-html="$page.blogPost.content"></div>
-</Layout>
+    <div v-html="$page.blogPost.content"></div>
+  </Layout>
 </template>
 
 <page-query>

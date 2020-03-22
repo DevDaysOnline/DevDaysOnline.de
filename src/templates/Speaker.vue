@@ -29,4 +29,3 @@ query Speaker ($path: String) {
   }
 }
 </page-query>
-

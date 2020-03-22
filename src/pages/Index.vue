@@ -3,11 +3,13 @@
     <h1>Willkommen bei dev-days-online!</h1>
 
     <p>
-      dev-days-online ist die Online Community Software
-      Enwickler Konferenz.
+      dev-days-online ist die Online Community Software Enwickler Konferenz.
     </p>
 
-    <p>Dies ist noch nicht die fertige Seite, dies ist nur ein Platzhalter und PoC</p>
+    <p>
+      Dies ist noch nicht die fertige Seite, dies ist nur ein Platzhalter und
+      PoC
+    </p>
 
     <p>Sie findet statt vom VON bis BIS</p>
 
@@ -42,8 +44,8 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world!"
-  }
+    title: 'Hello, world!',
+  },
 };
 </script>
 
