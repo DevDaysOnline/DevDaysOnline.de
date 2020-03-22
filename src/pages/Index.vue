@@ -1,18 +1,7 @@
 <template>
   <Layout>
     <h1>Willkommen bei dev-days-online!</h1>
-
-    <p>
-      dev-days-online ist die Online Community Software Enwickler Konferenz.
-    </p>
-
-    <p>
-      Dies ist noch nicht die fertige Seite, dies ist nur ein Platzhalter und
-      PoC
-    </p>
-
-    <p>Sie findet statt vom VON bis BIS</p>
-
+    <p>dev-days-online ist die Online Community Software Enwickler Konferenz am **17. April 2020** und **18. April 2020**.</p>
     <ul>
       <li v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
         <span v-html="node.date" /> &nbsp;
@@ -22,6 +11,7 @@
         <div v-html="node.description" />
       </li>
     </ul>
+    <p>Dies ist noch nicht die fertige Seite, dies ist nur ein Platzhalter und PoC</p>
   </Layout>
 </template>
 
@@ -44,8 +34,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!',
-  },
+    title: "Hello, world!"
+  }
 };
 </script>
 
