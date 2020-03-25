@@ -1,9 +1,10 @@
 ---
-name: Muescha Best Of Chat
-slug: muescha-best
+name: Sprecher 2
+slug: speaker-2
 sessions:
-  - vue3-best-of-something
-  - zukunft-dotnet
+  - session-1
+  - session-2
+
 ---
 
-Bester Fehler Finder und Tipp Geber
+Dummy für Sprecher 2

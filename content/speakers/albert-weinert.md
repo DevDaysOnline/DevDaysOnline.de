@@ -1,9 +1,8 @@
 ---
-name: Albert Weinert
-slug: albert-weinert
+name: Sprecher 1
+slug: speaker-1
 sessions:
-  - vue3-best-of-something
+  - session-1
 ---
 
-Keine Ahnung Gridsome, meint aber einen Live Stream dazu machen
-so können.
+Dummy für Sprecher 1

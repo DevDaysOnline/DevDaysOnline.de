@@ -1,9 +1,9 @@
 ---
-name: Futura Oz
-slug: futura-oz
+name: Sprecher 3
+slug: speaker-3
 sessions:
-  - logo-design
+  - session-3
 
 ---
 
-Figma Meister und Logo Wizard
+Dummy für Sprecher 3

@@ -13,12 +13,11 @@
 
 <page-query>
   query Home ($page: Int) {
-    allSpeaker (page: $page) {
+    allSpeaker (page: $page, sortBy: "name", order: ASC) {
       edges {
         node {
           id
           name
-          content
           path
           sessions {
             slug

@@ -1,9 +1,9 @@
 ---
-title: Vue3 in 2020
+title: Session 3
 speakers:
- - albert-weinert
- - muescha-best 
-slug: vue3-best-of-something
+ - speaker-1
+ - speaker-2
+slug: session-3
 ---
 
-Vue3 und alles wo so geht
+Dummmy für Session 3

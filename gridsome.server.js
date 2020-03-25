@@ -16,16 +16,22 @@ module.exports = function (api) {
 
   api.loadSource(({ addSchemaTypes, schema }) => {
 
-addSchemaTypes(
-`type Session implements Node @infer {
-    speakers: [Speaker] @reference(by: "slug")
-}`
-)
+    addSchemaTypes(
+      `type Session implements Node @infer {
+        speakers: [Speaker] @reference(by: "slug")
+      }`
+    )
 
-addSchemaTypes(`
+    addSchemaTypes(`
 type Speaker implements Node @infer {
   sessions: [Session] @reference(by: "slug")
 }
 `)
+  })
+
+  api.afterBuild((b) => {
+      console.log('afterBuild', b);
+      console.log('plugins', b.config.plugins[0]);
+
   })
 }

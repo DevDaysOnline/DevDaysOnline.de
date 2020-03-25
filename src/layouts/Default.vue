@@ -3,14 +3,15 @@
     <header class="header">
       <strong>
         <g-link to="/">
-          <img class="logo" src="/dev-days-logo.svg" alt="Logo Dev Days" />
+          <img class="logo" src="/dev-days-online-logo.png" alt="Logo Dev Days" />
         </g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Startseite</g-link>
         <g-link class="nav__link" to="/sessions/">Sessions</g-link>
         <g-link class="nav__link" to="/speakers/">Sprecher/Innen</g-link>
-        <g-link class="nav__link" to="/about/">Über uns</g-link>
+        <g-link class="nav__link" to="/sponsors/">Sponsoren</g-link>
+        <g-link class="nav__link" to="/about/">Impressum</g-link>
       </nav>
     </header>
     <slot />
@@ -33,6 +34,20 @@ body {
   padding:0;
   line-height: 1.5;
 }
+
+a {
+  color: #f77f00
+}
+a:hover {
+  color: #fcbf49
+}
+a:active {
+  color: #fcbf49
+}
+a:visited {
+  color: #f77f00
+}
+
 
 .layout {
   max-width: 760px;

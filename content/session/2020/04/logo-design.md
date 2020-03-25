@@ -1,8 +1,8 @@
 ---
-title: Logo Design
+title: Session 2
 speakers:
- - futura-oz
-slug: logo-design
+ - speaker-2
+slug: session-2
 ---
 
-Logo Design für Online Konferenzen
+Dummmy für Session 2

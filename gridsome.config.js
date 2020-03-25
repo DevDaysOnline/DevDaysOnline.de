@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'dev-days-online',
-//  siteUrl: 'https://www.devdaysonline.de',
+  //  siteUrl: 'https://www.devdaysonline.de',
   titleTemplate: `%s - dev-dasy-online`,
   metadata: {
     year: 2021
@@ -32,13 +32,21 @@ module.exports = {
         typeName: 'Speaker',
         route: '/speaker/:slug'
       }
-    }    ,
+    },
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/session/**/*.md',
         typeName: 'Session',
         route: '/session/:slug'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/sponsor/**/*.md',
+        typeName: 'Sponsor',
+        route: '/sponsor/:slug'
       }
     }
   ]
