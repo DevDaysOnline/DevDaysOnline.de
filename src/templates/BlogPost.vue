@@ -19,3 +19,13 @@ query BlogPost ($path: String) {
   }
 }
 </page-query>
+
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.blogPost.title
+    };
+  }
+};
+</script>

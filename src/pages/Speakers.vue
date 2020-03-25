@@ -29,3 +29,10 @@
     }
   }
 </page-query>
+<script>
+export default {
+  metaInfo: {
+    title: 'Sprecher/innen'
+  }
+};
+</script>

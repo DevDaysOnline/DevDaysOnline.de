@@ -24,3 +24,10 @@
     }
   }
 </page-query>
+<script>
+export default {
+  metaInfo: {
+    title: 'Sponsoren'
+  }
+};
+</script>

@@ -25,3 +25,11 @@
     }
   }
 </page-query>
+
+<script>
+export default {
+  metaInfo: {
+    title: "Sessions"
+  }
+};
+</script>

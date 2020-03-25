@@ -30,3 +30,12 @@ query Speaker ($path: String) {
 }
 </page-query>
 
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.speaker.name
+    };
+  }
+};
+</script>

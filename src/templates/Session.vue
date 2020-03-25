@@ -28,3 +28,12 @@ query Session ($path: String) {
   }
 }
 </page-query>
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.session.title
+    };
+  }
+};
+</script>
