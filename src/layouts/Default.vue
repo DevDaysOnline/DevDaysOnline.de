@@ -11,10 +11,10 @@
         <g-link class="nav__link" to="/sessions/">Sessions</g-link>
         <g-link class="nav__link" to="/speakers/">Sprecher/Innen</g-link>
         <g-link class="nav__link" to="/sponsors/">Sponsoren</g-link>
-        <g-link class="nav__link" to="/about/">Impressum</g-link>
+        <g-link class="nav__link" to="/imprint/">Impressum</g-link>
       </nav>
     </header>
-    <slot />
+    <slot/>
   </div>
 </template>
 
@@ -74,5 +74,36 @@ a:visited {
 
 ul {
   list-style-type: none;
+}
+
+h1, h2, h3, h4 {
+  color: #f77f00
+}
+h1 {
+  font-size: 1.3em;
+}
+h2 {
+  font-size: 1.2em;
+
+}
+
+h3 {
+  font-size: 1.1em;
+
+}
+
+h4 {
+  font-size: 1em;
+}
+.dev-days-list img {
+  float: right;
+  width: 10em;
+  margin: 0 0 1em 1em;
+  padding: 0;
+}
+
+.dev-days-list h2 {
+  background-color: #f77f0020;
+  padding: 0.5em;
 }
 </style>

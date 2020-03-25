@@ -1,13 +1,14 @@
 <template>
-    <Layout>
-                <h3>Sponsor</h3>        
-   <ul>
+  <Layout>
+    <h1>Sponsor</h1>
+    <ul class="dev-days-list">
       <li v-for="{ node } in $page.allSponsor.edges" :key="node._id">
-          <h2 v-html="node.name"/>
-          <p v-html="node.content"/>
+        <a :href="node.url"><h2 v-html="node.name" /></a>
+        <a :href="node.url"><g-image :src="node.image" /></a>
+        <p v-html="node.content" />
       </li>
     </ul>
-    </Layout>
+  </Layout>
 </template>
 
 <page-query>
@@ -16,6 +17,8 @@
       edges {
         node {
           id
+          image
+          url
           name
           content
           path    
@@ -27,7 +30,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Sponsoren'
+    title: "Sponsoren"
   }
 };
 </script>

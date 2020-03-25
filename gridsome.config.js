@@ -45,8 +45,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/sponsor/**/*.md',
-        typeName: 'Sponsor',
-        route: '/sponsor/:slug'
+        typeName: 'Sponsor'
       }
     }
   ]
