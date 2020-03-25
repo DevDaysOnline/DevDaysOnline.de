@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Sponsor</h1>
+    <h1>Sponsoren</h1>
     <ul class="dev-days-list">
       <li v-for="{ node } in $page.allSponsor.edges" :key="node._id">
         <a :href="node.url"><h2 v-html="node.name" /></a>
