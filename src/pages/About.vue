@@ -12,7 +12,7 @@
     Albert Weinert<br/>
     Im Kämpchen 5<br/>
     41569 Rommerskirchen</br>
-    <a href="info@dev-days-online.de">info@dev-days-online.de</a>
+    <a href="mailto:info@dev-days-online.de">info@dev-days-online.de</a>
     </p>
     <p>Unter der Schirmherrschaft vom <a href="https://www.dotnet-koelnbonn.de">dotnet Köln/Bonn e.V.</a></p>
   </Layout>
