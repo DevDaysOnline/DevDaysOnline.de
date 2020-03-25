@@ -6,8 +6,8 @@
 
 module.exports = {
   siteName: 'dev-days-online',
-  //  siteUrl: 'https://www.devdaysonline.de',
-  titleTemplate: `%s - dev-dasy-online`,
+  siteUrl: 'https://www.dev-days-online.de',
+  titleTemplate: `%s - dev-days-online`,
   metadata: {
     year: 2021
   },
