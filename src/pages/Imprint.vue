@@ -27,6 +27,8 @@
     <p>Der Live Stream wird auf <a href="https://www.twitch.tv">twitch.tv</a> durchgeführt. Für die Teilnahme am Chat ist ein dortiges Benutzerkonto erforderlich.
     Deren Datenschutz Bestimmungen findest Du <a href="https://www.twitch.tv/p/legal/privacy-notice/">www.twitch.tv/p/legal/privacy-notice</a>
     </p>
+    <h2>Dankeschön</h2>
+    <p>Danke an <a href="https://www.handmade-systems.de/">Mariusz Kogut</a> für das Logo.</p> 
 
   </Layout>
 </template>
