@@ -47,6 +47,19 @@ module.exports = {
         path: 'content/sponsor/**/*.md',
         typeName: 'Sponsor'
       }
+    },
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      /* These are the default options. You don't need to set any options to get going.
+      options: {
+        tailwindConfig: './tailwind.config.js',
+        purgeConfig: {},
+        presetEnvConfig: {},
+        shouldPurge: true,
+        shouldImport: true,
+        shouldTimeTravel: true
+      }
+      */
     }
   ]
 }

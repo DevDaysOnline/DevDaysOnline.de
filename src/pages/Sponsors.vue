@@ -1,13 +1,25 @@
 <template>
   <Layout>
     <h1>Sponsoren</h1>
-    <ul class="dev-days-list">
-      <li v-for="{ node } in $page.allSponsor.edges" :key="node._id">
-        <a :href="node.url"><h2 v-html="node.name" /></a>
-        <a :href="node.url"><g-image :src="node.image" /></a>
-        <p v-html="node.content" />
-      </li>
-    </ul>
+    <div v-for="{ node } in $page.allSponsor.edges" :key="node._id">
+      <div class="dev-card">
+        <div
+          class="logo"
+          :title="`Logo von ${node.name}`"
+        >
+          <g-image :src="node.image" />
+        </div>
+        <div
+          class="text"
+        >
+          <a :href="node.url">
+            <h2 v-html="node.name" />
+          </a>
+          <div v-html="node.content" />
+        </div>
+      </div>
+      <br />
+    </div>
   </Layout>
 </template>
 
