@@ -20,6 +20,7 @@ query Session ($path: String) {
     path
     slug
     content
+    description
     speakers {
       slug
       path
@@ -32,7 +33,8 @@ query Session ($path: String) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.session.title
+      title: this.$page.session.title,
+      description: (this.$page.session.description || '').substring(0,150)
     };
   }
 };

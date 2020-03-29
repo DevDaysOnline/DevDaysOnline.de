@@ -21,6 +21,7 @@ query Speaker ($path: String) {
     path
     slug
     content
+    description
     sessions {
       slug
       path
@@ -34,7 +35,8 @@ query Speaker ($path: String) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.speaker.name
+      title: this.$page.speaker.name,
+      description: (this.$page.speaker.description || '').substring(0,150)
     };
   }
 };

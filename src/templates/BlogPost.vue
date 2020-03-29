@@ -24,7 +24,8 @@ query BlogPost ($path: String) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.blogPost.title
+      title: this.$page.blogPost.title,
+      description: (this.$page.blogPost.description || '').substring(0,150)
     };
   }
 };
