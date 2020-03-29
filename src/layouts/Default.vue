@@ -11,6 +11,7 @@
             <g-link to="/sessions/">Sessions</g-link>
             <g-link to="/speakers/">Sprecher/Innen</g-link>
             <g-link to="/sponsors/">Sponsoren</g-link>
+            <!-- <g-link to="/support/">Unterstützen</g-link> -->
             <g-link to="/imprint/">Impressum</g-link>
           </div>
         </div>
