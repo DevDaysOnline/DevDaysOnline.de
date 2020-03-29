@@ -4,6 +4,10 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const remark = {
+  externalLinksRel: [],
+  lazyLoadImages: false
+}
 module.exports = {
   siteName: 'dev-days-online',
   siteUrl: 'https://www.dev-days-online.de',
@@ -22,7 +26,8 @@ module.exports = {
       options: {
         path: 'blog/**/*.md',
         typeName: 'BlogPost',
-        route: '/blog/:slug'
+        route: '/blog/:slug',
+        remark
       }
     },
     {
@@ -30,7 +35,8 @@ module.exports = {
       options: {
         path: 'content/speakers/*.md',
         typeName: 'Speaker',
-        route: '/speaker/:slug'
+        route: '/speaker/:slug',
+        remark
       }
     },
     {
@@ -38,14 +44,16 @@ module.exports = {
       options: {
         path: 'content/session/**/*.md',
         typeName: 'Session',
-        route: '/session/:slug'
+        route: '/session/:slug',
+        remark
       }
     },
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/sponsor/**/*.md',
-        typeName: 'Sponsor'
+        typeName: 'Sponsor',
+        remark
       }
     },
     {
