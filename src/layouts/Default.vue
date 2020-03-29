@@ -11,7 +11,7 @@
             <g-link to="/sessions/">Sessions</g-link>
             <g-link to="/speakers/">Sprecher/Innen</g-link>
             <g-link to="/sponsors/">Sponsoren</g-link>
-            <!-- <g-link to="/support/">Unterstützen</g-link> -->
+            <g-link to="/support/">Unterstützen</g-link>
             <g-link to="/imprint/">Impressum</g-link>
           </div>
         </div>
@@ -161,5 +161,9 @@ div.dev-card
   .dev-card .text {
       @apply border-l-0 border-t border-gray-400  rounded-b-none rounded-r 
   }
+}
+
+form {
+  @apply max-w-sm rounded overflow-hidden shadow-lg
 }
 </style>
