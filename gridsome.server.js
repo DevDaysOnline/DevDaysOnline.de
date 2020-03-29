@@ -28,10 +28,4 @@ type Speaker implements Node @infer {
 }
 `)
   })
-
-  api.afterBuild((b) => {
-      console.log('afterBuild', b);
-      console.log('plugins', b.config.plugins[0]);
-
-  })
 }
