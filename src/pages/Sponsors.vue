@@ -7,7 +7,7 @@
           class="logo"
           :title="`Logo von ${node.name}`"
         >
-          <g-image :src="node.image" />
+          <g-image :src="node.image" immediate="true" />
         </div>
         <div
           class="text"
