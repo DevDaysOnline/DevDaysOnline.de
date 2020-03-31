@@ -1,0 +1,10 @@
+---
+name: Davic C. Thömmesß
+slug: david-c-thoemmes
+image: ./images/david-c-thoemmes.jpg
+sessions:
+  - session-1
+  - session-2
+description: David C. Thömmes (B.Sc.) studierte Medieninformatik an der HS Kaiserslautern und entdeckte schon früh seine Leidenschaft für die Mensch-Computer-Interaktion und das Software Engineering. 
+---
+David C. Thömmes (B.Sc.) studierte Medieninformatik an der HS Kaiserslautern und entdeckte schon früh seine Leidenschaft für die Mensch-Computer-Interaktion und das Software Engineering. Seine ersten Benutzeroberflächen programmierte David mit VBA und Delphi 2004. Als Geschäftsführer sowie Lead Software & UX Engineer bei Shapefield gilt seine Passion heute dem UX Design und der agilen Softwareentwicklung. Dabei gilt David als führender Experte für die analytische Gestaltung einer Benutzeroberfläche und deren technische Implementierung als umfängliche UI-Architektur im Rahmen eines interdisziplinären UX-Designprozesses. Vor Shapefield hat David in der Rolle des Senior Software Engineers & Field Leads „Software Engineering Standards" knapp 5 Jahre maßgeblich die Entwicklungsabteilung des renommierten UX-Dienstleisters Ergosign mit aufgebaut. Anfang 2015 verließ David Ergosign auf eigenen Wunsch und legte wenige Monate später den Grundstein für Shapefield. Durch die Arbeit an unterschiedlichen Projekten mit diversen Technologien hat er fundierte Kenntnisse in der Entwicklung von Desktop-, Web-, Embedded- und Mobile-Anwendungen. Hierbei liegt seine Branchenspezialisierung in den Feldern Enterprise, Finance, Industrie und Engineering. Technisch schlägt sein Herz für .NET (C#, WPF, Prism), Qt (C++, QML) und PHP. Für seine Leistungen wurde David 2016, 2017 sowie 2018/19 mit dem Microsoft MVP Award geehrt. Darüber hinaus engagiert sich David regelmäßig als Konferenzsprecher und Dozent. Weiterhin absolvierte David vor dem Studium ein Fachabitur der Wirtschaftsinformatik.

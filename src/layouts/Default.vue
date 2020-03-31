@@ -166,4 +166,8 @@ div.dev-card {
 form {
   @apply max-w-sm rounded overflow-hidden shadow-lg;
 }
+
+.rounded-image {
+  @apply h-32 w-32 rounded-full
+}
 </style>
