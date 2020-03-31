@@ -113,6 +113,7 @@ h2,
 h3,
 h4 {
   color: #f77f00;
+  @apply font-bold;
 }
 h1 {
   font-size: 1.3em;

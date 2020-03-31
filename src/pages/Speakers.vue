@@ -11,8 +11,9 @@
             <h2 v-html="node.name" />
           </router-link>
           <div v-html="node.description" />
-          <h2 v-if="node.sessions.length > 1">Sessions</h2>
-          <h2 v-if="node.sessions.length == 1">Session</h2>
+          <br/>
+          <h3 v-if="node.sessions.length > 1">Sessions</h3>
+          <h3 v-if="node.sessions.length == 1">Session</h3>
           <ul>
             <li v-for="session in node.sessions" :key="session.path">
               <router-link :to="session.path">{{session.title}}</router-link>
