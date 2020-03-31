@@ -3,7 +3,7 @@ name: Christian Giesswein
 slug: christian-giesswein
 image: ./images/christian-giesswein.jpg
 sessions:
-  - session-1
+  - dotnet-core3-assemblyloadcontext
 
 description: Christian Giesswein studierte Wirtschaftsinformatik in Wien und entwickelt seit klein auf Software mit .NET und C#. 
 ---

@@ -3,7 +3,7 @@ name: Dr. Falk W. Müller
 slug: falk-mueller
 image: ./images/falk-mueller.jpg
 sessions:
-  - session-1
+  - open-source-software-rechtssicher-einbinden
 
 description: Als Expert IT-Consultant bei der diconium digital solutions mit über zwanzigjähriger praktischer Berufserfahrung im Onlinebusiness und E-Commerce als Softwareentwickler, Consultant und Architekt verfügt er über profunde Erfahrung als IT-Techniker.
 ---

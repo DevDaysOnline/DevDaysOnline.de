@@ -3,7 +3,7 @@ name: Benjamin Nothdurft
 slug: benjamin-nothdurft
 image: ./images/benjamin-nothdurft.jpg
 sessions:
-  - session-1
+  - unseren-kindern-gehoert-die-zukunft
 
 description: Benjamin ist leidenschaftlicher Entwickler und war als etablierter internationaler Speaker und interessierter Teilnehmer bereits auf über 100 Konferenzen unterwegs.
 ---

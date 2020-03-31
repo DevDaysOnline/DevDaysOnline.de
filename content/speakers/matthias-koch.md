@@ -3,7 +3,7 @@ name: Matthias Koch
 slug: matthias-koch
 image: ./images/matthias-koch.jpg
 sessions:
-  - session-1
+  - nuke-the-akeless-build-sytem-for-dotnet
 
 description: Matthias is a passionate C# developer and likes to talk about clean code, testing and tooling in general. 
 ---

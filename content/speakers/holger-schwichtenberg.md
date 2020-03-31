@@ -3,7 +3,7 @@ name: Dr. Holger Schwichtenberg
 slug: holger-schwichtenberg
 image: ./images/holger-schwichtenberg.jpg
 sessions:
-  - session-1
+  - alle-javascript-hasser-spa-mit-blazor
 
 description: Dr. Holger Schwichtenberg ist technischer Leiter des .NET-Expertennetzwerks IT Visions, das zahlreiche mittlere und große Unternehmen durch Softwareentwicklung, Beratung, Schulung und Support mit einer Vielzahl von Sprachen und Frameworks unterstützt.
 ---

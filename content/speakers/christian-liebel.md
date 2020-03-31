@@ -3,7 +3,7 @@ name: Christian Liebel
 slug: christian-liebel
 image: ./images/christian-liebel.jpg
 sessions:
-  - session-1
+  - webcomponents-als-frameworkersatz
 
 description: Christian Liebel ist Consultant bei der Thinktecture AG in Karlsruhe. Dort entwickelt er moderne Cross-Plattform-Apps auf Basis von Angular, Cordova, Electron, Node.js und .NET. 
 ---

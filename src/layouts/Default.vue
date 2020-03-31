@@ -116,6 +116,7 @@ h4 {
 }
 h1 {
   font-size: 1.3em;
+  margin-bottom: 1em;
 }
 h2 {
   font-size: 1.2em;
@@ -150,6 +151,10 @@ div.dev-card {
 
 .dev-card .text div {
   @apply text-gray-900;
+}
+
+.session {
+  @apply border-r border-b border-l border-gray-400 bg-white rounded-b p-4 flex flex-col justify-between leading-normal;
 }
 @media (min-width: 768px) {
   div.dev-card {
