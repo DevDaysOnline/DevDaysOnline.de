@@ -25,7 +25,7 @@
 
 <page-query>
   query Home ($page: Int) {
-    allSponsor (page: $page, sortBy: "name", order: ASC) {
+    allSponsor (page: $page, sortBy: "slug", order: ASC) {
       edges {
         node {
           id
