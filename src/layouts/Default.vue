@@ -17,7 +17,9 @@
         </div>
       </nav>
     </header>
-    <slot />
+    <div class="content">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -55,34 +57,34 @@ nav .nav-container div {
   @apply text-sm;
 }
 
-nav a { 
+nav a {
   @apply block mr-4;
-}
-nav .img-container {
-  @apply flex  flex-shrink-0 text-white mr-6
 }
 
 nav img {
-  @apply fill-current fill-current  w-20 mr-2
+  @apply fill-current fill-current  w-20 mr-2;
 }
 
 @media (min-width: 768px) {
-nav a {
- @apply  inline-block mt-0;
-}
+  nav a {
+    @apply inline-block mt-0;
+  }
   nav .nav-container {
-  @apply flex items-center w-auto
-}
-nav .nav-container div {
-  @apply flex-grow
-}
+    @apply flex items-center w-auto;
+  }
+  nav .nav-container div {
+    @apply flex-grow;
+  }
 }
 
 @media (min-width: 640px) {
-nav a {
- @apply mt-4;
+  nav a {
+    @apply mt-4;
+  }
 }
-  
+
+header {
+  background-color:#eee;
 }
 
 a {
@@ -99,9 +101,8 @@ a:visited {
 }
 
 .dev-container {
-  @apply mx-auto;
+  @apply mx-auto px-4;
 }
-
 
 ul {
   list-style-type: none;
@@ -131,39 +132,38 @@ p {
   margin-bottom: 1em;
 }
 
-div.dev-card
-{
+div.dev-card {
   @apply max-w-sm w-full;
 }
 
 .dev-card .logo {
-    @apply h-auto flex-none bg-cover rounded-t text-center overflow-hidden
+  @apply h-auto flex-none bg-cover rounded-t text-center overflow-hidden;
 }
 
 .dev-card .text {
- @apply border-r border-b border-l border-gray-400 bg-white rounded-b p-4 flex flex-col justify-between leading-normal
+  @apply border-r border-b border-l border-gray-400 bg-white rounded-b p-4 flex flex-col justify-between leading-normal;
 }
 
 .dev-card .text h2 {
-  @apply mb-2 font-bold
+  @apply mb-2 font-bold;
 }
 
 .dev-card .text div {
-  @apply text-gray-900
+  @apply text-gray-900;
 }
 @media (min-width: 768px) {
   div.dev-card {
     @apply max-w-full flex;
   }
   .dev-card .logo {
-   @apply w-48 rounded-t-none rounded-l 
-}
+    @apply w-48 rounded-t-none rounded-l;
+  }
   .dev-card .text {
-      @apply border-l-0 border-t border-gray-400  rounded-b-none rounded-r 
+    @apply border-l-0 border-t border-gray-400  rounded-b-none rounded-r;
   }
 }
 
 form {
-  @apply max-w-sm rounded overflow-hidden shadow-lg
+  @apply max-w-sm rounded overflow-hidden shadow-lg;
 }
 </style>
