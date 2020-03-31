@@ -1,16 +1,26 @@
 <template>
   <Layout>
-    <h3>{{ $page.speaker.name }}</h3>
+    <h1>{{ $page.speaker.name }}</h1>
 
-    <div v-html="$page.speaker.content"></div>
-
-    <h4>Sessions</h4>
-
-    <ul>
-      <li v-for="session in $page.speaker.sessions" :key="session._id">
-        <router-link :to="session.path" v-html="session.title" />
-      </li>
-    </ul>
+  <div class="dev-card">
+        <div class="logo" :title="`Bild von ${speaker.name}`">
+          <g-image class="rounded-image" :src="speaker.image || ''" immediate="true" />
+        </div>
+        <div class="text">
+          <router-link :to="speaker.path">
+            <h2 v-html="speaker.name" />
+          </router-link>
+          <div v-html="speaker.content" />
+          <br/>
+          <h3 v-if="speaker.sessions.length > 1">Sessions</h3>
+          <h3 v-if="speaker.sessions.length == 1">Session</h3>
+          <ul>
+            <li v-for="session in speaker.sessions" :key="session.path">
+              <router-link :to="session.path">{{session.title}}</router-link>
+            </li>
+          </ul>
+        </div>
+      </div>
   </Layout>
 </template>
 
@@ -21,7 +31,7 @@ query Speaker ($path: String) {
     path
     slug
     content
-    description
+    image (width: 180, height: 180, quality: 75, fit: cover)
     sessions {
       slug
       path
@@ -38,6 +48,11 @@ export default {
       title: this.$page.speaker.name,
       description: (this.$page.speaker.description || '').substring(0,150)
     };
+  },
+  computed: {
+    speaker() {
+      return this.$page.speaker;
+    }
   }
 };
 </script>
