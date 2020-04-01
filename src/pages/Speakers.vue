@@ -11,6 +11,7 @@
             <h2 v-html="node.name" />
           </router-link>
           <div v-html="node.description" />
+          <router-link class="more" :to="node.path">mehr...</router-link>
           <br/>
           <h3 v-if="node.sessions.length > 1">Sessions</h3>
           <h3 v-if="node.sessions.length == 1">Session</h3>

@@ -176,4 +176,12 @@ form {
 .rounded-image {
   @apply h-32 w-32 rounded-full
 }
+.more {
+  @apply font-bold py-1 px-1 w-32 rounded;
+  background-color: #eee ;
+}
+a.more {
+  margin-top: 0.7em;
+  text-align: center;
+}
 </style>
