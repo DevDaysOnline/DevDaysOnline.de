@@ -9,27 +9,32 @@
     <p>
       Die
       <b>dev-days-online</b> wurden ins Leben gerufen, um einerseits Sprechern und Wissensdurstigen
-      eine Plattform zu bieten, die nicht vom Virus betroffen ist. Andererseits, um die betroffenen Community-Konferenzen 
-        <a href="https://www.dotnet-day-franken.de">.NET Day Franken</a>,
+      eine Plattform zu bieten, die nicht vom Virus betroffen ist. Andererseits, um die betroffenen Community-Konferenzen
+      <a
+        href="https://www.dotnet-day-franken.de"
+      >.NET Day Franken</a>,
       der
       <a href="https://dotnet-cologne.de">dotnet Cologne</a>
       den
       <a href="https://md-devdays.de/">Magdeburger Developer Days</a>
       zu unterstützen.
     </p>
-    <p>Alle Einnahmen der Konferenz kommen den Veranstaltern der Konferenzen zu Gute, wenn Du selber auch helfen willst. Dann schaue <g-link to="/support/">hier nach wie</g-link>.</p>
+    <p>
+      Alle Einnahmen der Konferenz kommen den Veranstaltern der Konferenzen zu Gute, wenn Du selber auch helfen willst. Dann schaue
+      <g-link to="/support/">hier nach wie</g-link>.
+    </p>
 
-      <div v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
-        <router-link :to="node.path">
-        <h2 v-html="node.date" />
-      </router-link>
+    <div v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
+      <h2 v-html="node.date" />
       <div class="session">
-        <h3 v-html="node.title" />
+        <router-link :to="node.path">
+          <h3 v-html="node.title" />
+        </router-link>
         <div v-html="node.description" />
         <router-link class="more" :to="node.path">mehr...</router-link>
       </div>
       <br />
-      </div>
+    </div>
   </Layout>
 </template>
 
