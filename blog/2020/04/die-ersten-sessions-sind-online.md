@@ -1,6 +1,6 @@
 ---
 title: Die ersten Sessions sind Online.
-date: 2020-04-21 18:00:00
+date: 2020-04-01 18:00:00
 description: 'Die <b>dev-days-online</b> gehen mit einem interessantem Programm an den Start.'
 slug: die-ersten-sessions-sind-online
 ---
