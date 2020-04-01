@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div>
-      <h2>Deine Unterstützung für die Community</h2>
+      <h1>Deine Unterstützung für die Community</h1>
       <p>
         Der Virus, der aktuell alle Bereiche des öffentlichen Lebens durcheinanderbringt, hat auch die deutsche
         Entwickler-Community hart getroffen.
@@ -25,7 +25,7 @@
         <b>dev-days-online</b> wurden ins Leben gerufen, um einerseits Sprechern und Wissensdurstigen
         eine Plattform zu bieten, die nicht vom Virus betroffen ist. Andererseits, um die betroffenen Community-Konferenzen zu unterstützen.
       </p>
-      <h3>So kannst du helfen!</h3>
+      <h2>So kannst du helfen!</h2>
       <p>
         Wenn du möchtest, zahlst du einen Beitrag deiner Wahl (ab 5 €), entweder über PayPal oder per Überweisung.
         Empfänger ist zunächst der dotnet Köln/Bonn e.V., der seit über zehn Jahren das rechtliche Fundament für die dotnet Cologne darstellt.

@@ -1,10 +1,9 @@
 <template>
-<Layout>
-        <h3>{{ $page.blogPost.title }}</h3>
+  <Layout>
+    <h1>{{ $page.blogPost.title }}</h1>
 
-
-<div v-html="$page.blogPost.content"></div>
-</Layout>
+    <div v-html="$page.blogPost.content"></div>
+  </Layout>
 </template>
 
 <page-query>
@@ -25,7 +24,7 @@ export default {
   metaInfo() {
     return {
       title: this.$page.blogPost.title,
-      description: (this.$page.blogPost.description || '').substring(0,150)
+      description: (this.$page.blogPost.description || "").substring(0, 150)
     };
   }
 };

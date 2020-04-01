@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <div class="dev-card">
-      <div class="text">
-        <h2>Impressum</h2>
+    <div>
+      <h1>Impressum</h1>
+      <div class="session">
         <div>
           <p>
             Die dev-days-online werden Präsentiert und Organisiert
@@ -19,9 +19,9 @@
       </div>
     </div>
     <br />
-    <div class="dev-card">
-      <div class="text">
-        <h2>Datenschutz</h2>
+    <div>
+      <h2>Datenschutz</h2>
+      <div class="session">
         <div>
           <p>
             Wir hosten diese Seite auf
@@ -43,15 +43,13 @@
       </div>
     </div>
     <br />
-    <div class="dev-card">
-      <div class="text">
-        <h2>Danksagungen</h2>
-        <div>
-          <p>
-            Danke an
-            <a href="https://www.handmade-systems.de/">Mariusz Kogut</a> für das Logo.
-          </p>
-        </div>
+    <div>
+      <h2>Danksagungen</h2>
+      <div class="session">
+        <p>
+          Danke an
+          <a href="https://www.handmade-systems.de/">Mariusz Kogut</a> für das Logo.
+        </p>
       </div>
     </div>
   </Layout>

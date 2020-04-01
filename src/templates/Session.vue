@@ -1,15 +1,17 @@
 <template>
   <Layout>
-    <h3>{{ $page.session.title }}</h3>
+    <h1>{{ $page.session.title }}</h1>
+    <ul>
+      <li v-for="speaker in $page.session.speakers" :key="speaker._id">
+       <b><span v-if="speaker.sex != 'female'">Sprecher:</span>
+        <span v-if="speaker.sex == 'female'">Sprecherin:</span></b> &nbsp;
+         <router-link :to="speaker.path" v-html="speaker.name" />
+      </li>
+    </ul>
+    <br/>
 
     <div v-html="$page.session.content"></div>
 
-    <h4>Sprecher/Innen</h4>
-    <ul>
-      <li v-for="speaker in $page.session.speakers" :key="speaker._id">
-        <router-link :to="speaker.path" v-html="speaker.name" />
-      </li>
-    </ul>
   </Layout>
 </template>
 
@@ -22,6 +24,7 @@ query Session ($path: String) {
     content
     description
     speakers {
+      sex
       slug
       path
       name
@@ -37,5 +40,6 @@ export default {
       description: (this.$page.session.description || '').substring(0,150)
     };
   }
+  
 };
 </script>

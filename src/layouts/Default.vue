@@ -113,9 +113,11 @@ h2,
 h3,
 h4 {
   color: #f77f00;
+  @apply font-bold;
 }
 h1 {
   font-size: 1.3em;
+  margin-bottom: 1em;
 }
 h2 {
   font-size: 1.2em;
@@ -151,6 +153,10 @@ div.dev-card {
 .dev-card .text div {
   @apply text-gray-900;
 }
+
+.session {
+  @apply border-r border-b border-l border-gray-400 bg-white rounded-b p-4 flex flex-col justify-between leading-normal;
+}
 @media (min-width: 768px) {
   div.dev-card {
     @apply max-w-full flex;
@@ -165,5 +171,17 @@ div.dev-card {
 
 form {
   @apply max-w-sm rounded overflow-hidden shadow-lg;
+}
+
+.rounded-image {
+  @apply h-32 w-32 rounded-full
+}
+.more {
+  @apply font-bold py-1 px-1 w-32 rounded;
+  background-color: #eee ;
+}
+a.more {
+  margin-top: 0.7em;
+  text-align: center;
 }
 </style>

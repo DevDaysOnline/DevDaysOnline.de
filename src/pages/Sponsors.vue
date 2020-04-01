@@ -2,23 +2,7 @@
   <Layout>
     <h1>Sponsoren</h1>
     <div v-for="{ node } in $page.allSponsor.edges" :key="node._id">
-      <div class="dev-card">
-        <div
-          class="logo"
-          :title="`Logo von ${node.name}`"
-        >
-          <g-image :src="node.image" immediate="true" />
-        </div>
-        <div
-          class="text"
-        >
-          <a :href="node.url">
-            <h2 v-html="node.name" />
-          </a>
-          <div v-html="node.content" />
-        </div>
-      </div>
-      <br />
+      <Sponsor :name="node.name" :image="node.image" :content="node.content" :url="node.url" />
     </div>
   </Layout>
 </template>
@@ -40,7 +24,11 @@
   }
 </page-query>
 <script>
+import Sponsor from '@/components/Sponsor.vue'
 export default {
+  components: {
+    Sponsor
+  },
   metaInfo: {
     title: "Sponsoren"
   }
