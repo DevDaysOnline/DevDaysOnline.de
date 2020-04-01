@@ -20,7 +20,7 @@
       zu unterstützen.
     </p>
     <p>
-      Alle Einnahmen der Konferenz kommen den Veranstaltern der Konferenzen zu Gute, wenn Du selber auch helfen willst. Dann schaue
+      Alle Einnahmen der <b>dev-days-online</b> kommen den Veranstaltern der Konferenzen zu Gute, wenn Du selber auch helfen willst. Dann schaue
       <g-link to="/support/">hier nach wie</g-link>.
     </p>
 
