@@ -1,7 +1,7 @@
 ---
-title: Clean Code, Dirty Agile
+title: Open Source-Software und Quellcode aus dem Internet rechtssicher einbinden und nutzen
 speakers:
- - frank-mueller
+ - falk-mueller
 slug: open-source-software-rechtssicher-einbinden
 description: Gibt es heute tatsächlich noch ein Projekt, das ohne Open Source-Software auskommt? Doch wann darf ich Open Source-Software nutzen, wann muss ich meinen Source Code ebenfalls veröffentlichen? 
 ---
