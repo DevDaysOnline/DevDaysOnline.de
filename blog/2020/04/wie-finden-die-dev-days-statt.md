@@ -1,7 +1,7 @@
 ---
-title: Wie werden die dev-days-online Veranstaltet.
+title: Was erwartet einen bei den dev-days-online?
 date: 2020-04-03 15:00:00
-description: Was brauchst Du um an den dev-days-online Teilzunehmen, was erwartet Dich.
+description: Was brauchst Du um an den dev-days-online Teilzunehmen, was erwartet Dich und die Teilnehmer.
 slug: wie-werden-die-dev-days-online-veranstaltet
 ---
 
