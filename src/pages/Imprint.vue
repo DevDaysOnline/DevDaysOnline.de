@@ -15,6 +15,7 @@
             <br />und
             <a href="https://blog.der-albert.com">Albert Weinert</a>.
           </p>
+          <p>Albert Weinert: <a href="mailto:albert@dev-days-online.de">albert@dev-days-online.de</a></p>
         </div>
       </div>
     </div>
@@ -46,6 +47,9 @@
     <div>
       <h2>Danksagungen</h2>
       <div class="session">
+        <p>Danke an <a href="https://twitter.com/RolandWeigelt">Roland Weigelt</a>. Die guten Texte auf dieser
+        Seite wurden maßgeblich von Ihm mitgestaltet. Die mit den Fehlern und dem komischen Satzbau stammen von Albert.</p>
+        <p>Danke an die Organistoren der drei Konferenzen.</p>
         <p>
           Danke an
           <a href="https://www.handmade-systems.de/">Mariusz Kogut</a> für das Logo.
