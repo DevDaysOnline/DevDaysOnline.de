@@ -104,8 +104,10 @@ a:visited {
   @apply mx-auto px-4;
 }
 
-ul {
-  list-style-type: none;
+.dev-card .text ul {
+  margin-left: 2em;
+  margin-bottom: 1em;
+  list-style-type: square;
 }
 
 h1,
