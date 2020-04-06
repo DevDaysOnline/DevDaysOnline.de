@@ -30,6 +30,7 @@ query Speaker ($path: String) {
     name
     path
     slug
+    description,
     content
     image (width: 180, height: 180, quality: 75, fit: cover)
     sessions {
@@ -42,11 +43,19 @@ query Speaker ($path: String) {
 </page-query>
 
 <script>
+import { getDescription } from '~/services/helper.js';
+
 export default {
   metaInfo() {
+    const speaker = this.$page.speaker;
     return {
-      title: this.$page.speaker.name,
-      description: (this.$page.speaker.description || '').substring(0,150)
+      title: speaker.name,
+      meta: [
+        { 
+          name: 'description',
+          const: getDescription(speaker.description, speaker.content)
+        }
+      ]
     };
   },
   computed: {

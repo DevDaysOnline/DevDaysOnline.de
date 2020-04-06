@@ -20,11 +20,20 @@ query BlogPost ($path: String) {
 </page-query>
 
 <script>
+import { getDescription } from '~/services/helper.js';
+
 export default {
   metaInfo() {
+    const post = this.$page.blogPost;
     return {
-      title: this.$page.blogPost.title,
-      description: (this.$page.blogPost.description || "").substring(0, 150)
+      title: post.title,
+      meta: [
+        { 
+          name: 'description',
+          const: getDescription(post.description, post.content)
+        }
+      ]
+
     };
   }
 };
