@@ -1,5 +1,5 @@
 ---
-name: Devcouch
+name: DevCouch
 slug: devcouch
 image: ./images/devcouch-logo.png
 sessions:

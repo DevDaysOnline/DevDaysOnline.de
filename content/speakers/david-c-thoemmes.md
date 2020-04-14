@@ -1,5 +1,5 @@
 ---
-name: Davic C. Thömmes
+name: David C. Thömmes
 slug: david-c-thoemmes
 image: ./images/david-c-thoemmes.jpg
 sessions:
