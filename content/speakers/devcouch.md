@@ -8,4 +8,6 @@ sessions:
 
 description: Der regelmäßige Audiopodcast mit Thomas Krause, Oliver Vogel und Manuel Wenk
 ---
-Der regelmäßige Audiopodcast mit Thomas Krause, Oliver Vogel und Manuel Wenk
+Der regelmäßige Audiopodcast mit Thomas Krause, Oliver Vogel und Manuel Wenk.
+
+[devcouch.de](https://devcouch.de/)
