@@ -2,7 +2,7 @@
   <Layout>
     <div class="agenda">
     <h1 >Zeitplan</h1>
-    <p>Der virtuelle Einlass unter <a href="https://twitch.tv/DerAlbertLive">twitch.tv/DerAlbertLive</a> ist jeden Tag im 09:00 Uhr</p>
+    <p>Der virtuelle Einlass unter <a href="https://twitch.tv/DerAlbertLive">twitch.tv/DerAlbertLive</a> ist jeden Tag um 09:00 Uhr</p>
     <div v-for="date in dates" :key="date">
       <h2>{{ date }}</h2>
       <table>
