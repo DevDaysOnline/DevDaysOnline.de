@@ -1,6 +1,6 @@
 ---
 slug: 5minds
-name: 5Minds IT-Solutions
+name: 5Minds IT-Solutions GmbH & Co. KG
 url: https://www.5minds.de/
 image: ./images/5minds.png
 ---
