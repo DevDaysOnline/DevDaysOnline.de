@@ -17,7 +17,7 @@
     </tr>
       </table>
     </div>
-    <p>Die Agend kann sich jederzeit ändern</p>
+    <p>Die Agenda kann sich jederzeit ändern.</p>
     </div>
   </Layout>
 </template>
