@@ -1,5 +1,6 @@
 ---
 title: Die ganze Welt als Datenbank
+date: 2020-04-17 13:05:00
 speakers:
  - matthias-eissing
 slug: die-ganze-welt-als-datenbank

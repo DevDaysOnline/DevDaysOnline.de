@@ -8,6 +8,7 @@
         <div class="nav-container">
           <div>
             <g-link to="/">Startseite</g-link>
+            <g-link to="/agenda/">Zeitplan</g-link>
             <g-link to="/sessions/">Sessions</g-link>
             <g-link to="/speakers/">Sprecher/Innen</g-link>
             <g-link to="/sponsors/">Sponsoren</g-link>
@@ -185,5 +186,14 @@ form {
 a.more {
   margin-top: 0.7em;
   text-align: center;
+}
+
+.agenda table {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.agenda h2 {
+  margin-bottom: 0.5em;
 }
 </style>

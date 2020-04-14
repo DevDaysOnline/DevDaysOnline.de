@@ -1,5 +1,6 @@
 ---
 title: NUKE - The AKEless Build System for .NET
+date: 2020-04-18 13:35:00
 speakers:
  - matthias-koch
 slug: nuke-the-akeless-build-sytem-for-dotnet

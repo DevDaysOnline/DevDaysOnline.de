@@ -1,5 +1,6 @@
 ---
 title: 'von 0 auf Selbstorganisiert: was ein agiles Team braucht'
+date: 2020-04-18 11:40:00
 speakers:
  - alexandra-windisch
 slug: von-0-auf-selbstorganisiert-agile-teams

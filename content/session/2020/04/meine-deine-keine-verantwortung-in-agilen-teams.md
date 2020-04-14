@@ -1,5 +1,6 @@
 ---
 title: Meine! Deine! Keine! Verantwortung in agilen Teams
+date: 2020-04-17 15:20:00
 speakers:
  - frank-duesterbeck
 slug: meine-deine-keine-verantwortung-in-agilen-teams

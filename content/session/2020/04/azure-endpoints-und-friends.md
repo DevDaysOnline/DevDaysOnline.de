@@ -1,5 +1,6 @@
 ---
 title: Privatsphäre in der Public Cloud – Azure Private Endpoints and Friends
+date: 2020-04-18 12:35:00
 speakers:
  - rainer-stropek
 slug: azure-endpoints-und-friends

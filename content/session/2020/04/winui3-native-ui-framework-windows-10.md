@@ -1,5 +1,6 @@
 ---
 title: WinUI 3 – native UI Framework für Windows 10
+date: 2020-04-17 13:50:00
 speakers:
  - marian-grzesik
 slug: winui3-native-ui-framework-windows-10

@@ -1,5 +1,6 @@
 ---
 title: Open Source-Software und Quellcode aus dem Internet rechtssicher einbinden und nutzen
+date: 2020-04-18 15:15:00
 speakers:
  - falk-mueller
 slug: open-source-software-rechtssicher-einbinden

@@ -1,5 +1,6 @@
 ---
 title: .NET Core 3.x – Pluginsysteme mit AssemblyLoadContext
+date: 2020-04-17 11:45:00
 speakers:
  - christian-giesswein
 slug: dotnet-core3-assemblyloadcontext

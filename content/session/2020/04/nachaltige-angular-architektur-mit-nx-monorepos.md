@@ -1,5 +1,6 @@
 ---
 title: Nachhaltige Angular-Architekturen mit Nx Monorepos und Strategic Design
+date: 2020-04-18 16:00:00
 speakers:
  - manfred-steyer
 slug: nachaltige-angular-architektur-mit-nx-monorepos

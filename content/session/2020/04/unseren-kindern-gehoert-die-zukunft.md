@@ -1,5 +1,6 @@
 ---
 title: 'Unseren Kindern gehört die Zukunft: Inspire children to programming, robotics & engineering!'
+date: 2020-04-17 16:20:00
 speakers:
  - benjamin-nothdurft
 slug: unseren-kindern-gehoert-die-zukunft

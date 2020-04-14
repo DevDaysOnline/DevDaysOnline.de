@@ -1,5 +1,6 @@
 ---
 title: Clean Code, Dirty Agile
+date: 2020-04-18 09:15:00
 speakers:
  - oezguer-ergel
 slug: clean-code-dirty-agile

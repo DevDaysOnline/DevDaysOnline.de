@@ -1,5 +1,6 @@
 ---
 title: 'Alle JavaScript-Hasser: Programmiert Eure SPAs doch ganz einfach mit .NET, C# und Blazor!'
+date: 2020-04-17 10:00:00
 speakers:
  - holger-schwichtenberg
 slug: alle-javascript-hasser-spa-mit-blazor

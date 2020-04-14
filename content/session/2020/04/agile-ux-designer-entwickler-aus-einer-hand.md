@@ -1,5 +1,6 @@
 ---
 title: Agile UX – Designer & Entwickler Hand in Hand
+date: 2020-04-17 09:15:00
 speakers:
  - david-c-thoemmes
 slug: agile-ux-designer-entwickler-aus-einer-hand

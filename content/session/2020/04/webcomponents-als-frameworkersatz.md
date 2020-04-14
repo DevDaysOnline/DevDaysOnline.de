@@ -1,5 +1,6 @@
 ---
 title: Web Components als Frameworkersatz – das Frontend-Experiment
+date: 2020-04-17 14:35:00
 speakers:
  - christian-liebel
 slug: webcomponents-als-frameworkersatz

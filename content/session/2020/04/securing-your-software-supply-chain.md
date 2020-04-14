@@ -1,5 +1,6 @@
 ---
 title: Securing your software supply chain - Anatomie einer DevSecOps-Pipeline
+date: 2020-04-17 11:00:00
 speakers:
  - nicolas-byl
 slug: securing-your-software-supply-chain
