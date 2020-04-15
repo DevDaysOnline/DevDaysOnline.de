@@ -14,11 +14,11 @@ Sie werden begeistert sein! Im top ausgestatteten Schulungszentrum der GFU Cyrus
 
 Die Fakten:
 
-1. 1.400 Seminarthemen
-2. 21.000 durchgeführte Seminare
-3. 79.000 Teilnehmer bisher
-4. 100 Dozenten aus der Projektpraxis
-4. 23 Seminarräume
+  * 1.400 Seminarthemen
+  * 21.000 durchgeführte Seminare
+  * 79.000 Teilnehmer bisher
+  * 100 Dozenten aus der Projektpraxis
+  * 23 Seminarräume
 
 Offene Schulungen, Inhouse-/Individualschulungen, Intensivworkshops, Themenwochen, Konferenzen, PowerDays & PowerWeeks Kostenloser Bus-Shuttle, Hotelbuchung, Parkplatz-Reservierung & 1A Verpflegung = Rundum-sorglos-Paket Ohne Risiko: Durchführungsgarantie, keine Vorkasse & kostenfreie Stornierung Ausgezeichnet mit dem eKomi Siegel Gold bei +3.600 Kundenbewertungen
 
