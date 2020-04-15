@@ -196,4 +196,12 @@ a.more {
 .agenda h2 {
   margin-bottom: 0.5em;
 }
+
+.agenda a b {
+  color:#f77f00;
+}
+
+.agenda a {
+  color: #333
+}
 </style>
