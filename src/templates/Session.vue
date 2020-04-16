@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <h1>{{ $page.session.title }}</h1>
+    <p><b>Zeitpunkt:</b> {{ $page.session.date }} {{ $page.session.time }} Uhr</p>
     <ul>
       <li v-for="speaker in $page.session.speakers" :key="speaker._id">
        <b><span v-if="speaker.sex != 'female'">Sprecher:</span>
@@ -23,6 +24,8 @@ query Session ($path: String) {
     slug
     content
     description
+    date: date (format: "DD.MM.YYYY")
+    time: date (format: "HH:mm")
     speakers {
       sex
       slug
