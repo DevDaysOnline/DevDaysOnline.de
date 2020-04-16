@@ -10,8 +10,9 @@
           <td valign="top">{{ session.time }}<td>
          <td> <router-link :to="session.path">
            <b>{{ session. title }}</b><br/>
-        <span v-for="speaker in session.speakers" :key="speaker._id">
+        <span v-for="(speaker, index) in session.speakers" :key="speaker._id">
           <router-link :to="speaker.path" v-html="speaker.name" />
+          <span v-if="index !== (session.speakers.length - 1)">, </span>
         </span>
       </router-link></td>
     </tr>
