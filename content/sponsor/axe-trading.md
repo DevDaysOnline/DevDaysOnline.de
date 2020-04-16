@@ -4,14 +4,15 @@ name: AxeTrading Ltd
 url: https://www.axetrading.com
 image: ./images/axe-trading.png
 ---
-Die AxeTrading Ltd, mit Hauptsitz in London und Betriebsstätte in Magdeburg, ist Spezialist für innovative IT-Lösungen im Finanzsektor. 
+**AxeTrading** - The cutting edge of Fixed Income trading technology
+ 
+AxeTrading ist ein preisgekröntes internationales Softwareunternehmen, welches einzigartige Lösungen im Fixed Income Bereich anbietet, von Preisberechnung über Kursfeststellung bis zu Order- und Risikoverwaltung. Händler, die unsere Plattform verwenden, profitieren vom Zugang zu optimierten, personalisierten und intuitiven Arbeitsprozessen, die durch höchstflexible, agile und effiziente Technologien bereitgestellt werden.
+AxeTrading, mit Hauptsitz in London, Technologie Innovationszentrum im „Wissenschaftshafen“ Magdeburgs und Vertriebsstellen in Sydney und Singapore, wurde 2009 gegründet.
 
-Schwerpunkte unserer Tätigkeiten sind Softwareentwicklung, IT-Beratung und Anwender-Support.
+Von Produkt-Konzeption und -Design, über Entwicklung und Test, bis zur Systemintegration und Kundenbetreuung werden alle Schritte unserer Softwareproduktion in-house betreut. Dabei setzen wir auf neuste Technologien und den Scrum-Entwicklungsprozess.
 
-Wir erstellen innovative technologisch-moderne und schlanke Softwarelösungen. Unser Fokus liegt auf der Entwicklung und Pflege von standardisierten sowie individuellen Produkten für den elektronischen Handel von Wertpapieren.
+Wir sind ein eingespieltes Team aus 17 Ländern und verschiedensten Hintergründen, aber der gleichen Begeisterung für IT und Finanzwelt.
 
-Von der Konzeption und Design, über die Entwicklung und Testung, bis zur letztendlichen Kundenbetreuung und Warten der Software werden alle Schritte in-house nach Agilen-Entwicklungsprozessen durchgeführt. Aus unserem Sitz in der so genannt "Denkfabrik" im Wissenschaftshafen der Stadt bieten wir unseren Kunden weltweiten Remote Support, sowohl während der Software-Integrationsphase, als auch darüber hinaus. So lassen sich Spuren erfolgreicher Projektarbeiten auf vier Kontinenten finden!
+Leidenschaft kann man nicht programmieren. Aber wir nutzen sie in unserer Softwareentwicklung.
 
-Unser Team ist im Durchschnitt 32 Jahre alt, kommt aus 10 Ländern und freut sich auf IT-Herausforderungen. 
-
-Leidenschaft kann man nicht programmieren, aber wir nutzen sie in unserer Softwareentwicklung.
+https://www.axetrading.com/
