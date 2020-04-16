@@ -42,7 +42,7 @@
 
       <PayPal />
       <br/>
-<p>Wenn Du als Firma für Deine Mitarbeiter zahlen möchten, wählen einen Betrag pro Teilnehmer. Im nächsten Schritt kannst Du dann die Anzahl der Teilnehmer angeben.</p>
+<p>Wenn Du als Firma für Deine Mitarbeiter zahlen möchtest, wähle einen Betrag pro Teilnehmer. Im nächsten Schritt kannst Du dann die Anzahl der Teilnehmer angeben.</p>
       <h3>Überweisung</h3>
       <p>Überweise den Betrag deiner Wahl an:</p>
       <p>
