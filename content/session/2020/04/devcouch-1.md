@@ -1,9 +1,10 @@
 ---
-title: DevCouch mit Gast 1
+title: DevCouch mit Christian Giesswein
 date: 2020-04-18 11:00:00
 speakers:
  - devcouch
+ - christian-giesswein
 slug: devcouch-2004-1
-description: Interview mit ???
+description: Interview mit Christian Giesswein
 ---
-Interview mit ???
+Interview mit Christian Giesswein
