@@ -23,4 +23,4 @@ Die [DevCouch](https://devcouch.de/) wird einige Live-Interviews führen (Gäste
 
 Folge **dev-days-online** auf [Twitter](https://twitter.com/DevDaysOnline). Folge dem [Twitch-Kanal](http://twitch.tv/DerAlbertLive) von Albert Weinert.
 
-Auf diesem Kanal wird es Übrigens bis zur Konferenz Live-Streams geben mit Backstage-Infos, wie man so eine Konferenz durchführen kann. Wie [OBS](https://obsproject.com/) eingerichtet wird und wie man Skype dazu bringt mit OBS zu reden, um daraus einen sauber funktionierenden Live-Stream zu produzieren.ß
+Auf diesem Kanal wird es Übrigens bis zur Konferenz Live-Streams geben mit Backstage-Infos, wie man so eine Konferenz durchführen kann. Wie [OBS](https://obsproject.com/) eingerichtet wird und wie man Skype dazu bringt mit OBS zu reden, um daraus einen sauber funktionierenden Live-Stream zu produzieren.

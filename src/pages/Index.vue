@@ -24,6 +24,25 @@
       <g-link to="/support/">hier nach wie</g-link>.
     </p>
 
+    <div class="stream">
+      <div class="abox"><iframe
+    src="https://player.twitch.tv/?channel=deralbertlive&parent=localhost:8080&parent=www.dev-days-online.de"
+    height="240"
+    width="427"
+    autoplay="true"
+    scrolling="no"
+    allowfullscreen="false">
+</iframe></div>
+      <div class="abox highlight"><h2>Live Stream</h2>
+      <p>Jeden Tag um 09:00 Uhr startet der Live Stream, im <a href="/agenda">Zeitplan</a> kannst Du sehen wann 
+      die jeweiligen Sessions starten.</p>
+      <p>Am besten schaust Du auf direkt auf <a href="https://twitch.tv/DerAlbertLive">Twitch</a> dafür brauchst Du 
+      kein Konto, zum Chatten schon. Und wir empfehlen die Beteiligung per Chat.</p>
+      <p>Du musst wahrscheinlich manuell die Stream Auflösung auf 1080p stellen um ein scharfes Bild zu erhalten.</p>
+      </div>
+
+    </div>
+
     <div v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
       <h2 v-html="node.date" />
       <div class="session">

@@ -204,4 +204,19 @@ a.more {
 .agenda a {
   color: #333
 }
+
+.stream {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    justify-content: center;
+}
+
+.stream .abox {
+  padding: 1em;
+  min-width: 470px;
+  max-width: 600px;
+  text-align: center;
+  @apply max-w-sm rounded overflow-hidden shadow-lg;
+}
 </style>
