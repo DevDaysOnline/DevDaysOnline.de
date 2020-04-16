@@ -15,3 +15,5 @@ was geboten wird.
 [Wissenswertes zur dev-days-online Community-Konferenz](../wissenswertes-zur-dev-days-online-community/) kannst Du ausführlich nachlesen.
 
 Wenn Du es noch nicht getan hast, dann Teile Deinen Kollegen, Chefs, Partnern, Freunden und interessierten Verwandten mit das die *dev-days-online* stattfinden.
+
+Auch schaue bei den [Danksagungen](/imprint#Danksagungen) nach wer so im Hintergrund geholfen hat.

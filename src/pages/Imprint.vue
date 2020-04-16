@@ -6,16 +6,16 @@
         <div>
           <p>
             Die dev-days-online werden Präsentiert und Organisiert
-            <br />vom
+            <br />von
+                        <a href="https://blog.der-albert.com">Albert Weinert</a>,
+            <br />sowie dem
             <a href="https://www.dotnet-day-franken.de">.NET Day Franken</a>,
             <br />der
             <a href="https://dotnet-cologne.de">dotnet Cologne</a>,
             <br />den
-            <a href="https://md-devdays.de/">Magdeburger Developer Days</a>
-            <br />und
-            <a href="https://blog.der-albert.com">Albert Weinert</a>.
+            <a href="https://md-devdays.de/">Magdeburger Developer Days</a>.
           </p>
-          <p>Albert Weinert: <a href="mailto:albert@dev-days-online.de">albert@dev-days-online.de</a></p>
+          <p>Albert Weinert: <a href="mailto:albert@dev-days-online.de">albert@dev-days-online.de</a><br/>Im Kämpchen 5, 41569 Rommerskirchen</p>
         </div>
       </div>
     </div>
@@ -47,13 +47,19 @@
     <div>
       <h2>Danksagungen</h2>
       <div class="session">
+        <p>Danke an alle Vortragenden die sich so spontan bereit erklärt haben hier einen Vortrag zu halten</p>
         <p>Danke an <a href="https://twitter.com/RolandWeigelt">Roland Weigelt</a>. Die guten Texte auf dieser
         Seite wurden maßgeblich von Ihm mitgestaltet. Die mit den Fehlern und dem komischen Satzbau stammen von Albert.</p>
-        <p>Danke an die Organistoren der drei Konferenzen.</p>
+        <p>Danke an die Organistoren der drei Konferenzen. Für die aquise der Sponsoren und das Informieren Ihrer Teilnehmer.</p>
         <p>
           Danke an
-          <a href="https://www.handmade-systems.de/">Mariusz Kogut</a> für das Logo.
+          <a href="https://www.handmade-systems.de/">Mariusz Kogut</a> für das Logo und zusätzliche After Effects Animationen.
         </p>
+                <p>
+          Danke an <a href="https://obs.ninja/">OBS.ninja</a> damit werden alle WebCams, Ton und Bildschirme in den Live Stream übertragen. 
+          Danke auch den Author <a href="https://github.com/steveseguin">Steve Seguin</a> für das beantworten meiner Fragen.
+        </p>
+
       </div>
     </div>
   </Layout>
