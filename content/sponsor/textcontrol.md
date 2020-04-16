@@ -8,6 +8,6 @@ Text Control wurde 1991 gegründet und ist ein preisgekrönter Microsoft Visual 
 
 Text Control ist zu 100% inhabergeführt und damit komplett unabhängig von Investorenentscheidungen. Kunden profitieren von jahrelanger Erfahrung, einer sehr großen Nutzerbasis und den ausgereiften und zuverlässigen Produkten. Kernprodukt ist das Reporting-Framework, welches die Stärken eines Reporting-Tools mit einer, einfach zu handhabenen, Textverarbeitung kombiniert – voll programmierbar und integrierbar in einer .NET Anwendung.
 
-Unter allen Teilnehmern der **dev-days-online&& verlosen wir eine [XBox One X](https://labs.textcontrol.com/raffle).
+Unter allen Teilnehmern der **dev-days-online** verlosen wir eine [XBox One X](https://labs.textcontrol.com/raffle).
 
 [www.textcontrol.com/](https://www.textcontrol.com/)
