@@ -10,6 +10,6 @@ Im Zuge der fortschreitenden Digitalisierung unterstützt das Software-Unternehm
 
 2018 wurde die lise GmbH als einer der „Besten Arbeitgeber in NRW 2018" von Great Place to Work ausgezeichnet. Dies und auch die Gütesiegel „Top Company" und „Open Company" würdigen das Engagement und die besonders mitarbeiterfreundliche Arbeitsumgebung des Software-Spezialisten aus dem Rheinland.
 
-Erhaltet als Teilnamer der **dev-days-online* 75% Workshops der [lise Academy](https://lise.de/ddo)
+Erhaltet als Teilnamer der *dev-days-online* **75% Rabatt** auf Workshops der [lise Academy](https://lise.de/ddo).
 
 [lise.de/ddo](https://www.lise.de/ddo)
