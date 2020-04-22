@@ -11,3 +11,5 @@ Agile Teams sind in aller Munde, besonders in der Software-Entwicklung führt ke
 Was heißt „selbst organisiert"? – Das Team entscheidet praktisch demokratisch, wozu es sich comitted, wer welche Aufgaben übernimmt. Fällt ein Teammitglied aus, werden die Aufgaben unter den verbleibenden Kollegen aufgeteilt – ebenso funktioniert gegenseitige Unterstützung bei technischen Herausforderungen.
 
 Klingt unrealistisch? Mitnichten.
+
+[Folien](https://1drv.ms/b/s!AmXNl8dqs5HUpqBNdNFjNAg8vcbM-Q?e=V4o8gI)
