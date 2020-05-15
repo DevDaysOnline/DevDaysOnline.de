@@ -23,5 +23,5 @@ Danke an [Mariusz](https://www.handmade-systems.de/) für das Logo und zusätzli
 
 Danke an [Steve](https://github.com/steveseguin) für [OBS.ninja](https://obs.ninja)  und das beantworten meiner Fragen.
 
-**Und Danke an alle Teilnehmer im Chat die mit Ihren Fragen und Regen Austausch für eine gute Stimmung gesorgt haben**.
+**Und Danke an alle Teilnehmer im Chat die mit Ihren Fragen und regem Austausch für eine gute Stimmung gesorgt haben**.
 
