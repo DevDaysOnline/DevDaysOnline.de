@@ -6,5 +6,6 @@ speakers:
  - christian-giesswein
 slug: devcouch-2004-1
 description: Interview mit Christian Giesswein
+youtube: QLvUTj8Nkvg
 ---
 Interview mit Christian Giesswein

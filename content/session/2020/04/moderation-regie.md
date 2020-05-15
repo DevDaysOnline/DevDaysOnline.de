@@ -9,9 +9,12 @@ speakers:
  - ulrike-stirnweiss
 slug: moderation-regie
 description: Die Moderation und Regie
+youtube: aBNTIhtnl0k
 ---
 
 Die Regie im Laufe des Tags übernimmt großteils Albert und wird unterstützt von Sia.
 
 Sia wird zusammen mit Melanie, Michael und Ulrike die Anmoderationen sowie die jeweiligen
 Q&A Runden mit den Sprechern machen.
+
+Das Video hier von der Retrospektive wo Albert erklär

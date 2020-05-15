@@ -24,7 +24,7 @@
       <g-link to="/support/">hier nach wie</g-link>.
     </p>
 
-    <div class="stream">
+    <div v-if="false" class="stream">
       <div class="abox"><iframe
     src="https://player.twitch.tv/?channel=deralbertlive&parent=localhost:8080&parent=www.dev-days-online.de"
     height="240"

@@ -5,6 +5,7 @@ speakers:
  - manfred-steyer
 slug: nachaltige-angular-architektur-mit-nx-monorepos
 description: Mit Monorepos können große Anwendungen in kleine, übersichtliche Teile zerlegt werden. 
+youtube: yISwjaZdiWo
 ---
 Mit Monorepos können große Anwendungen in kleine, übersichtliche Teile zerlegt werden. Dabei handelt es sich jedoch nur um eine Seite der Medaille: Zuvor gilt es nämlich festzulegen, anhand welcher Kriterien die Zerlegung erfolgen soll und wie die einzelnen Bibliotheken miteinander kommunizieren dürfen.
  

@@ -11,7 +11,20 @@
     </ul>
     <br/>
 
-    <div v-html="$page.session.content"></div>
+    <div v-if="$page.session.youtube">
+      <iframe 
+        width="800" 
+        height="450" 
+        :src="`https://www.youtube-nocookie.com/embed/${$page.session.youtube}`" 
+        frameborder="0" 
+        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+        <a :href="`https://www.youtu.be/${$page.session.youtube}`">https://www.youtu.be/{{ $page.session.youtube }}</a>
+        <br/>
+    </div>
+
+        <div v-html="$page.session.content"></div>
 
   </Layout>
 </template>
@@ -24,6 +37,7 @@ query Session ($path: String) {
     slug
     content
     description
+    youtube
     date: date (format: "DD.MM.YYYY")
     time: date (format: "HH:mm")
     speakers {

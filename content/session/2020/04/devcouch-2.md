@@ -6,5 +6,6 @@ speakers:
  - christian-liebel
 slug: devcouch-2004-2
 description: Interview mit Christian Liebel
+youtube: arTs_q_5CHE 
 ---
 Interview mit Christian Liebel
