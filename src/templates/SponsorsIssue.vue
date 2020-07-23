@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     sponsors() {
-      const { issue } = this.$route.params
+      const { issue } = this.$context;
       const issueN = Number(issue);
       return this.$page.allSponsor.edges.map(e=>e.node).filter(s=>s.issues.indexOf(issueN) >= 0);
     }

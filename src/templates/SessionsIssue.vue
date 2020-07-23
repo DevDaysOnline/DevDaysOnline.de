@@ -15,7 +15,7 @@
 </template>
 
 <page-query>
-  query  {
+  query {
     allSession (sortBy: "slug", order: ASC) {
       edges {
         node {
@@ -37,7 +37,7 @@ export default {
   },
   computed: {
     sessions() {
-      const { issue } = this.$route.params
+      const { issue } = this.$context;
       console.log('issue', issue);
       const issueN = Number(issue);
       return this.$page.allSession.edges

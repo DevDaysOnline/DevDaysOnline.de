@@ -55,7 +55,7 @@ export default {
   },
   computed: {
     speakers() {
-      const { issue } = this.$route.params;
+      const { issue } = this.$context;
       const issueN = Number(issue);
       const speakers = this.$page.allSpeaker.edges.map(s=>s.node);
       for (let speaker of speakers) {

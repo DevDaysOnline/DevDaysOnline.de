@@ -5,12 +5,39 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const issues = [2009, 2004]
+
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
   api.createPages(({ createPage }) => {
+
+    for (let issue of issues) {
+      createPage({
+        path: `/sessions/${issue}`,
+        component: './src/templates/SessionsIssue.vue',
+        context: {
+          issue: issue
+        }
+      });
+      createPage({
+        path: `/speakers/${issue}`,
+        component: './src/templates/SpeakersIssue.vue',
+        context: {
+          issue: issue
+        }
+      });
+      createPage({
+        path: `/sponsors/${issue}`,
+        component: './src/templates/SponsorsIssue.vue',
+        context: {
+          issue: issue
+        }
+      });
+
+    }
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
   })
 
@@ -28,4 +55,6 @@ type Speaker implements Node @infer {
 }
 `)
   })
+
+  const issues = [2009, 2004]
 }

@@ -36,7 +36,7 @@ module.exports = {
       options: {
         path: 'content/speakers/*.md',
         typeName: 'Speaker',
-        route: '/speakers/:slug',
+        route: '/speaker/:slug',
         remark
       }
     },
@@ -45,7 +45,7 @@ module.exports = {
       options: {
         path: 'content/session/**/*.md',
         typeName: 'Session',
-        route: '/sessions/:issue/:slug',
+        route: '/session/:issue/:slug',
         remark
       }
     },
@@ -54,6 +54,7 @@ module.exports = {
       options: {
         path: 'content/sponsor/**/*.md',
         typeName: 'Sponsor',
+        route: '/sponsor/:slug',
         remark
       }
     },
