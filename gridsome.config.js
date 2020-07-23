@@ -1,4 +1,4 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
@@ -13,7 +13,8 @@ module.exports = {
   siteUrl: 'https://www.dev-days-online.de',
   titleTemplate: `%s - dev-days-online`,
   metadata: {
-    year: 2021
+    year: 2020,
+    currentIssue: 2009
   },
   templates: {
     BlogPost: '/blog/:slug',
@@ -35,7 +36,7 @@ module.exports = {
       options: {
         path: 'content/speakers/*.md',
         typeName: 'Speaker',
-        route: '/speaker/:slug',
+        route: '/speakers/:slug',
         remark
       }
     },
@@ -44,7 +45,7 @@ module.exports = {
       options: {
         path: 'content/session/**/*.md',
         typeName: 'Session',
-        route: '/session/:slug',
+        route: '/sessions/:issue/:slug',
         remark
       }
     },

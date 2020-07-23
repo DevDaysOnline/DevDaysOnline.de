@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <h1>Sprecherinnen und Sprecher</h1>
-    <div v-for="{ node } in $page.allSpeaker.edges" :key="node._id">
+    <h1>Sprecherinnen und Sprecher 2</h1>
+    <div v-for="node in speakers" :key="node._id">
       <div class="dev-card">
         <div class="logo" :title="`Bild von ${node.name}`">
           <g-image class="rounded-image" :src="node.image || ''" immediate="true" />
@@ -12,7 +12,7 @@
           </router-link>
           <div v-html="node.description" />
           <router-link class="more" :to="node.path">mehr...</router-link>
-          <br/>
+          <br />
           <h3 v-if="node.sessions.length > 1">Sessions</h3>
           <h3 v-if="node.sessions.length == 1">Session</h3>
           <ul>
@@ -42,8 +42,7 @@
             title,
             path,
             issue
-          }
-    
+          }    
         }
       }
     }
@@ -52,7 +51,18 @@
 <script>
 export default {
   metaInfo: {
-    title: "Sprecher/innen"
-  }
+    title: "Sprecher/innen",
+  },
+  computed: {
+    speakers() {
+      const { issue } = this.$route.params;
+      const issueN = Number(issue);
+      const speakers = this.$page.allSpeaker.edges.map(s=>s.node);
+      for (let speaker of speakers) {
+        speaker.sessions = speaker.sessions.filter(s=>s.issue === issueN);
+      }
+      return speakers.filter(s=>s.sessions.length > 0);
+    },
+  },
 };
 </script>

@@ -3,6 +3,8 @@ slug: gfu-cyrus-ag
 name: GFU Cyrus AG
 url: https://www.gfu.net/
 image: ./images/gfu-cyrus.png
+issues:
+- 2004
 ---
 ### Perfekt - IT Weiterbildung für Unternehmen
 

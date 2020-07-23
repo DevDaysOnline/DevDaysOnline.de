@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:sponsor" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:page" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:post" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:sponsor" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4967c6ac-e7b6-4f90-85e3-424914149895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/devdays-website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/session/2020/09/dumm-session-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sessions/[issue].vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sponsors/[issue].vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/IssueSessions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/IssueSponsors.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/agile-ux-designer-entwickler-aus-einer-hand.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/agile-ux-designer-entwickler-aus-einer-hand.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/alle-javascript-hasser-spa-mit-blazor.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/alle-javascript-hasser-spa-mit-blazor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/azure-endpoints-und-friends.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/azure-endpoints-und-friends.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/clean-code-dirty-agile.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/clean-code-dirty-agile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/devcouch-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/devcouch-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/devcouch-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/devcouch-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/die-ganze-welt-als-datenbank.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/die-ganze-welt-als-datenbank.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/dotnet-core3-assemblyloadcontext.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/dotnet-core3-assemblyloadcontext.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/meine-deine-keine-verantwortung-in-agilen-teams.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/meine-deine-keine-verantwortung-in-agilen-teams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/moderation-regie.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/moderation-regie-2004.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/nachaltige-angular-architektur-mit-nx-monorepos.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/nachaltige-angular-architektur-mit-nx-monorepos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/nuke-the-akeless-build-sytem-for-dotnet.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/nuke-the-akeless-build-sytem-for-dotnet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/open-source-software-rechtssicher-einbinden.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/open-source-software-rechtssicher-einbinden.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/securing-your-software-supply-chain.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/securing-your-software-supply-chain.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/unseren-kindern-gehoert-die-zukunft.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/unseren-kindern-gehoert-die-zukunft.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/von-0-auf-selbstorganisiert-agile-teams.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/von-0-auf-selbstorganisiert-agile-teams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/webcomponents-als-frameworkersatz.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/webcomponents-als-frameworkersatz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/wie-eine-sql-server-datenbank-deployen.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/wie-eine-sql-server-datenbank-deployen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/session/2020/04/winui3-native-ui-framework-windows-10.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/session/2020/04/winui3-native-ui-framework-windows-10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/speakers/albert-weinert.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/speakers/albert-weinert.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/speakers/melanie-eibl.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/speakers/melanie-eibl.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/speakers/michael-blume.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/speakers/michael-blume.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/speakers/sia-gasshemi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/speakers/sia-gasshemi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/speakers/ulrike-stirnweiss.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/speakers/ulrike-stirnweiss.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/5minds.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/5minds.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/advanto-software.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/advanto-software.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/axe-trading.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/axe-trading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/cleverbridge.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/cleverbridge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/dotnet-consulting.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/dotnet-consulting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/embarcadero.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/embarcadero.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/gfu.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/gfu.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/ipi-gmbh.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/ipi-gmbh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/lise.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/lise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/mt-ag.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/mt-ag.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/progress.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/progress.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/shapefield.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/shapefield.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/sulzer.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/sulzer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/sponsor/textcontrol.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sponsor/textcontrol.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Sessions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Sessions.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1euRvOqfPh8M0kzXo70L2GquZri" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/sponsors" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/sessions" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/sponsors" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/content/session/2020/09" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4967c6ac-e7b6-4f90-85e3-424914149895" name="Default Changelist" comment="" />
+      <created>1595169722313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595169722313</updated>
+      <workItem from="1595169724425" duration="6335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="145" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1595175603918">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="145" y="245" width="670" height="676" key="search.everywhere.popup/1920.-542.1440.2537/0.23.1920.1005/-1792.343.1792.1097@0.23.1920.1005" timestamp="1595175603918" />
+  </component>
+</project>

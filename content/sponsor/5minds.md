@@ -3,6 +3,9 @@ slug: 5minds
 name: 5Minds IT-Solutions GmbH & Co. KG
 url: https://www.5minds.de/
 image: ./images/5minds.png
+issues:
+  - 2004
+  - 2009
 ---
 Du begegnest ihr jeden Tag. Immer wenn Du irgendwo Einkaufen gehst. Dieser Software, für die Du Dir die Nächte um die Ohren geschlagen und Blut und Wasser geschwitzt hast... Die Du mit vereinten Kräften gerade noch rechtzeitig online gebracht hast und die heute jeder Zweite automatisch beim Bezahlen mit Karte benutzt... Du hängst es nicht an die große Glocke, aber ein bisschen stolz macht es Dich schon... 8-)
 

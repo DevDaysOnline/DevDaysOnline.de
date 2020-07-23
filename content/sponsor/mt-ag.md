@@ -3,6 +3,8 @@ slug: mt-ag
 name: MT AG
 url: https://www.mt-ag.com/
 image: ./images/mt-ag.png
+issues:
+- 2004
 ---
 Spezialist für modernste individuelle IT-Lösungen sorgt die MT AG dafür, dass ihre Kunden am Puls der Zeit und damit anpassungs- und wettbewerbsfähig bleiben. Die MT AG schafft die Rahmenbedingungen für neue, innovative Geschäftsmodelle und -prozesse. Hierbei bietet das Unternehmen alle notwendigen Applications, Analytics und Services aus einer Hand. Dies umfasst:
 

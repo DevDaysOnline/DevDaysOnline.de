@@ -6,6 +6,7 @@ description: Jede Datenbank muss nach Erstellung oder Anpassungen irgendwann ein
 speakers:
  - thorsten-kansy
 youtube: nhhW_AJl1Kk
+issue: 2004
 ---
 Jede Datenbank muss nach Erstellung oder Anpassungen irgendwann einmal auf dem Produktionssystem bereitgestellt werden. 
 Dabei ist es unerheblich, ob die Datenbank von Hand, von Tools erstellt, bzw. angepasst wurde oder von der Migration des

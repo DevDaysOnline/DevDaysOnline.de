@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1 class="dev-card">Sessions</h1>
-    <div v-for="{ node } in sessions" :key="node._id">
+    <div v-for=" node in sessions" :key="node.id">
       <router-link :to="node.path">
         <h2 v-html="node.title" />
       </router-link>
@@ -15,14 +15,14 @@
 </template>
 
 <page-query>
-  query Home ($page: Int) {
-    allSession (page: $page, sortBy: "slug", order: ASC) {
+  query  {
+    allSession (sortBy: "slug", order: ASC) {
       edges {
         node {
           id
           title
           path,
-          issue,
+          issue
           description
         }
       }
@@ -37,7 +37,10 @@ export default {
   },
   computed: {
     sessions() {
-      return this.$page.allSession.edges.filter(s=>s.node.issue === 2004); // fallback to first issue of dev-days-online
+      const { issue } = this.$route.params
+      console.log('issue', issue);
+      const issueN = Number(issue);
+      return this.$page.allSession.edges.map(s=>s.node).filter(s=>s.node.issue === issueN );
     }
   }
 };
