@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Sponsoren</h1>
-    <div v-for="{ node } in sponsors" :key="node._id">
+    <div v-for="node in sponsors" :key="node._id">
       <Sponsor :name="node.name" :image="node.image" :content="node.content" :url="node.url" />
     </div>
   </Layout>
@@ -37,7 +37,7 @@ export default {
     sponsors() {
       const { issue } = this.$route.params
       const issueN = Number(issue);
-      return this.$page.allSponsor.edges.filter(s=>s.node.issues.indexOf(issueN) >= 0);
+      return this.$page.allSponsor.edges.map(e=>e.node).filter(s=>s.issues.indexOf(issueN) >= 0);
     }
   }
 };

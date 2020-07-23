@@ -40,7 +40,9 @@ export default {
       const { issue } = this.$route.params
       console.log('issue', issue);
       const issueN = Number(issue);
-      return this.$page.allSession.edges.map(s=>s.node).filter(s=>s.node.issue === issueN );
+      return this.$page.allSession.edges
+      .map(s=>s.node)
+      .filter(s=>s.issue === issueN );
     }
   }
 };
