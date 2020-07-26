@@ -59,6 +59,13 @@ module.exports = {
       }
     },
     {
+      use: "@gridsome/transformer-yaml",
+      options: {
+        path: 'content/issues.yml',
+        typeName: 'Issue'
+      }
+    },
+    {
       use: 'gridsome-plugin-tailwindcss',
       /* These are the default options. You don't need to set any options to get going.
       options: {

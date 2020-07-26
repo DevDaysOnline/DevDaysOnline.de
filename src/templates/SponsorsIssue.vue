@@ -1,15 +1,15 @@
 <template>
   <Layout>
     <h1>Sponsoren</h1>
-    <div v-for="node in sponsors" :key="node._id">
-      <Sponsor :name="node.name" :image="node.image" :content="node.content" :url="node.url" />
+    <div v-for="sponsor in sponsors" :key="sponsor._id">
+      <Sponsor :name="sponsor.name" :image="sponsor.image" :content="sponsor.content" :url="sponsor.url" />
     </div>
   </Layout>
 </template>
 
 <page-query>
-  query Home ($page: Int) {
-    allSponsor (page: $page, sortBy: "slug", order: ASC) {
+  query SponsorList ($issue: Int) {
+    allSponsor (filter: { issues: { containsAny: [$issue] } }, sortBy: "slug", order: ASC) {
       edges {
         node {
           id
@@ -35,9 +35,9 @@ export default {
   },
   computed: {
     sponsors() {
-      const { issue } = this.$context;
-      const issueN = Number(issue);
-      return this.$page.allSponsor.edges.map(e=>e.node).filter(s=>s.issues.indexOf(issueN) >= 0);
+      return this.$page.allSponsor
+          .edges
+          .map(e=>e.node);
     }
   }
 };

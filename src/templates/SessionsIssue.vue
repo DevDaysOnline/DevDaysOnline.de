@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <h1 class="dev-card">Sessions</h1>
-    <div v-for=" node in sessions" :key="node.id">
-      <router-link :to="node.path">
-        <h2 v-html="node.title" />
+    <div v-for="session in sessions" :key="session.id">
+      <router-link :to="session.path">
+        <h2 v-html="session.title" />
       </router-link>
       <div class="session">
-        <div v-html="node.description" />
-        <router-link class="more" :to="node.path">mehr...</router-link>
+        <div v-html="session.description" />
+        <router-link class="more" :to="session.path">mehr...</router-link>
       </div>
       <br />
     </div>
@@ -15,8 +15,8 @@
 </template>
 
 <page-query>
-  query {
-    allSession (sortBy: "slug", order: ASC) {
+  query SessionList($issue: Int) {
+    allSession (filter: {issue: { eq: $issue} }, sortBy: "slug", order: ASC) {
       edges {
         node {
           id
@@ -37,12 +37,8 @@ export default {
   },
   computed: {
     sessions() {
-      const { issue } = this.$context;
-      console.log('issue', issue);
-      const issueN = Number(issue);
       return this.$page.allSession.edges
-      .map(s=>s.node)
-      .filter(s=>s.issue === issueN );
+      .map(s=>s.node);
     }
   }
 };
