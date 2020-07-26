@@ -58,6 +58,13 @@ module.exports = function (api) {
                     issue: issue
                 }
             });
+            createPage({
+                path: `/agenda/${issue}`,
+                component: './src/templates/AgendaIssue.vue',
+                context: {
+                    issue: issue
+                }
+            });
 
         });
         // Use the Pages API here: https://gridsome.org/docs/pages-api/

@@ -54,15 +54,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4967c6ac-e7b6-4f90-85e3-424914149895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/issues.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/AgendaIssue.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gridsome.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/SessionsIssue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/SessionsIssue.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/SpeakersIssue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/SpeakersIssue.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/SponsorsIssue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/SponsorsIssue.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/sponsors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,15 +89,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/templates" />
+      <recent name="$PROJECT_DIR$/src/pages/sponsors" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/content/session/2020/09" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/sessions" />
       <recent name="$PROJECT_DIR$/src/templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/sponsors" />
-      <recent name="$PROJECT_DIR$/src/templates" />
-      <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/content/session/2020/09" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595169722313</updated>
       <workItem from="1595169724425" duration="6335000" />
-      <workItem from="1595761545307" duration="5916000" />
+      <workItem from="1595761545307" duration="6218000" />
     </task>
     <servers />
   </component>
@@ -135,9 +129,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="145" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1595175603918">
+    <state x="145" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1595768245727">
       <screen x="0" y="23" width="1920" height="1005" />
     </state>
-    <state x="145" y="245" width="670" height="676" key="search.everywhere.popup/1920.-542.1440.2537/0.23.1920.1005/-1792.343.1792.1097@0.23.1920.1005" timestamp="1595175603918" />
+    <state x="145" y="245" width="670" height="676" key="search.everywhere.popup/1920.-542.1440.2537/0.23.1920.1005/-1792.343.1792.1097@0.23.1920.1005" timestamp="1595768245727" />
   </component>
 </project>
