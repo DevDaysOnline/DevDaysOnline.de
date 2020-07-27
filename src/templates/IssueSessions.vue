@@ -21,7 +21,7 @@
         node {
           id
           title
-          path
+          path,
           description,
         }
       }

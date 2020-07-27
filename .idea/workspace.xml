@@ -54,9 +54,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4967c6ac-e7b6-4f90-85e3-424914149895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/templates/AgendaIssue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/IssueSessions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/IssueSessions.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -87,17 +88,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.GraphQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/pages/sessions" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/templates" />
       <recent name="$PROJECT_DIR$/src/pages/sponsors" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/content/session/2020/09" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/sessions" />
-      <recent name="$PROJECT_DIR$/src/templates" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,7 +112,11 @@
       <option name="presentableId" value="Default" />
       <updated>1595169722313</updated>
       <workItem from="1595169724425" duration="6335000" />
-      <workItem from="1595761545307" duration="6218000" />
+      <workItem from="1595761545307" duration="6939000" />
+      <workItem from="1595878114615" duration="166000" />
+      <workItem from="1595878313578" duration="400000" />
+      <workItem from="1595878731530" duration="267000" />
+      <workItem from="1595879168450" duration="1124000" />
     </task>
     <servers />
   </component>
@@ -129,6 +136,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="868" y="447" key="IDE.errors.dialog" timestamp="1595878374284">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="868" y="447" key="IDE.errors.dialog/2560.-542.1440.2537/0.23.2560.1365/-1792.343.1792.1097@0.23.2560.1365" timestamp="1595878374284" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1595878875656">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="781" y="344" key="SettingsEditor/2560.-542.1440.2537/0.23.2560.1365/-1792.343.1792.1097@0.23.2560.1365" timestamp="1595878875656" />
     <state x="145" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1595768245727">
       <screen x="0" y="23" width="1920" height="1005" />
     </state>
