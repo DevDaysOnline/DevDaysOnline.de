@@ -7,6 +7,7 @@ slug: securing-your-software-supply-chain
 
 description: Sich auf den Pfad in Richtung DevSecOps zu machen, ändert vieles an der Art und Weise, Software zu entwickeln. Nicht nur ist auf einmal das Team für die gesamte Lieferkette der Software verantwortlich. 
 youtube: 7LVJKfD9vrs
+issue: 2004
 ---
 Sich auf den Pfad in Richtung DevSecOps zu machen, ändert vieles an der Art und Weise, Software zu entwickeln. Nicht nur ist auf einmal das Team für die gesamte Lieferkette der Software verantwortlich. Nein, neben der Verantwortung von der Idee bis zur Anwendung hat man auf einmal auch noch das Thema Sicherheit am Bein.
 

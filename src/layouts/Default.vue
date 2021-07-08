@@ -8,10 +8,10 @@
         <div class="nav-container">
           <div>
             <g-link to="/">Startseite</g-link>
-            <g-link to="/agenda/">Zeitplan</g-link>
-            <g-link to="/sessions/">Sessions</g-link>
-            <g-link to="/speakers/">Sprecher/Innen</g-link>
-            <g-link to="/sponsors/">Sponsoren</g-link>
+            <g-link :to="`/agenda/${issue}`">Zeitplan</g-link>
+            <g-link :to="`/sessions/${issue}`">Sessions</g-link>
+            <g-link :to="`/speakers/${issue}`">Sprecher/Innen</g-link>
+            <g-link :to="`/sponsors/${issue}`">Sponsoren</g-link>
             <g-link to="/support/">Unterstützen</g-link>
             <g-link to="/imprint/">Impressum</g-link>
           </div>
@@ -28,11 +28,21 @@
 query {
   metadata {
     siteName,
-    year
+    year,
+    currentIssue
   }
 }
 </static-query>
+<script>
+export default {
+  computed: {
+    issue() {
+      return 2009;//this.$page.metadata.currentIssue;
+    }
+  }
+}
 
+</script>
 <style>
 @tailwind base;
 @tailwind components;

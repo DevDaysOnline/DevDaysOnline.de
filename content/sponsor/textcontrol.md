@@ -3,6 +3,8 @@ slug: text-control-gmbh
 name: Text Control GmbH
 url: https://www.textcontrol.com/
 image: ./images/text-control.png
+issues:
+- 2004
 ---
 Text Control wurde 1991 gegründet und ist ein preisgekrönter Microsoft Visual Studio Industry Partner und führender Anbieter von Reporting- und Textverarbeitungskomponenten für Microsoft-Entwickler. Die Produkte helfen tausenden von Entwicklern, Text- und Dokumentenverarbeitung in ihre Windows, Web und Mobil-Anwendungen zu integrieren.
 

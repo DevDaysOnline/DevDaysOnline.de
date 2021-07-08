@@ -3,7 +3,7 @@ name: Melanie Eibl
 slug: melanie-eibl
 image: ./images/melanie-eibl.jpg
 sessions:
-  - moderation-regie
+  - moderation-regie-2004
 sex: female
 description: Melanie Eibl entwickelt seit 1999 Software mit dem Schwerpunkt .NET und SQL Server.
 ---

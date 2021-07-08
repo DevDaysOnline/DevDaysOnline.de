@@ -1,0 +1,790 @@
+# Add fields from field values.
+directive @infer on OBJECT
+# Add reference resolver.
+directive @reference(
+  # Reference node by a custom field value.
+  by: String = "id"
+) on FIELD_DEFINITION
+# Return value from another field.
+directive @proxy(from: String) on FIELD_DEFINITION
+# Paginate a connection in a query. Only supported in page-query.
+directive @paginate on FIELD
+type Query {
+  blogPost(
+    id: ID
+    path: String
+    # Will return an error if not nullable.
+    nullable: Boolean = false
+  ): BlogPost
+  allBlogPost(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument]
+    # Filter for BlogPost nodes.
+    filter: BlogPostFilterInput
+  ): BlogPostConnection
+  speaker(
+    id: ID
+    path: String
+    # Will return an error if not nullable.
+    nullable: Boolean = false
+  ): Speaker
+  allSpeaker(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument]
+    # Filter for Speaker nodes.
+    filter: SpeakerFilterInput
+  ): SpeakerConnection
+  session(
+    id: ID
+    path: String
+    # Will return an error if not nullable.
+    nullable: Boolean = false
+  ): Session
+  allSession(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument]
+    # Filter for Session nodes.
+    filter: SessionFilterInput
+  ): SessionConnection
+  sponsor(
+    id: ID
+    path: String
+    # Will return an error if not nullable.
+    nullable: Boolean = false
+  ): Sponsor
+  allSponsor(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument]
+    # Filter for Sponsor nodes.
+    filter: SponsorFilterInput
+  ): SponsorConnection
+  issue(
+    id: ID
+    path: String
+    # Will return an error if not nullable.
+    nullable: Boolean = false
+  ): Issue
+  allIssue(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument]
+    # Filter for Issue nodes.
+    filter: IssueFilterInput
+  ): IssueConnection
+  metadata: Metadata
+  metaData: Metadata @deprecated(reason: "Use Query.metadata instead.")
+  page(path: String!): Page
+  allPage(
+    # Filter pages.
+    filter: PageFilterInput
+  ): [Page]
+}
+
+type BlogPost implements Node {
+  id: ID!
+  path(to: String = "default"): String
+  fileInfo: BlogPost_FileInfo
+  content: String
+  excerpt(
+    # Maximum length of generated excerpt (characters)
+    length: Int = 200
+  ): String
+  title: String
+  date(
+    # Date format
+    format: String
+    # Locale
+    locale: String
+  ): Date
+  description: String
+  slug: String
+  headings(
+    depth: RemarkHeadingLevels
+    stripTags: Boolean = true
+  ): [RemarkHeading]
+  timeToRead(
+    # Words per minute
+    speed: Int = 230
+  ): Int
+  belongsTo(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument!]
+    filter: BelongsToFilterInput
+  ): NodeBelongsTo
+}
+
+interface Node {
+  id: ID!
+}
+
+type BlogPost_FileInfo {
+  extension: String
+  directory: String
+  path: String
+  name: String
+}
+
+scalar Date
+
+enum RemarkHeadingLevels {
+  h1
+  h2
+  h3
+  h4
+  h5
+  h6
+}
+
+type RemarkHeading {
+  depth: Int
+  value: String
+  anchor: String
+}
+
+enum SortOrder {
+  # Sort ascending
+  ASC
+  # Sort descending
+  DESC
+}
+
+input SortArgument {
+  by: String! = "date"
+  order: SortOrder = DESC
+}
+
+input BelongsToFilterInput {
+  id: IDQueryOperatorInput
+  path: StringQueryOperatorInput
+  typeName: TypeNameQueryOperatorInput
+}
+
+input IDQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: ID
+  # Filter by property not equal to provided value.
+  ne: ID
+  # Filter by property matching any of the provided values.
+  in: [ID]
+  # Filter by property not matching any of the provided values.
+  nin: [ID]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+}
+
+input StringQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: String
+  # Filter by property not equal to provided value.
+  ne: String
+  # Filter by property matching any of the provided values.
+  in: [String]
+  # Filter by property not matching any of the provided values.
+  nin: [String]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+  # Filter by property matching provided regular expression.
+  regex: String
+}
+
+input TypeNameQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: TypeName
+  # Filter by property not equal to provided value.
+  ne: TypeName
+  # Filter by property matching any of the provided values.
+  in: [TypeName]
+  # Filter by property not matching any of the provided values.
+  nin: [TypeName]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+}
+
+enum TypeName {
+  BlogPost
+  Speaker
+  Session
+  Sponsor
+  Issue
+}
+
+type NodeBelongsTo implements NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [NodeBelongsToEdge]
+}
+
+interface NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [NodeConnectionEdge]
+}
+
+type PageInfo {
+  perPage: Int!
+  currentPage: Int!
+  totalPages: Int!
+  totalItems: Int!
+  hasPreviousPage: Boolean!
+  hasNextPage: Boolean!
+  isFirst: Boolean!
+  isLast: Boolean!
+}
+
+interface NodeConnectionEdge {
+  node: Node
+  next: Node
+  previous: Node
+}
+
+type NodeBelongsToEdge implements NodeConnectionEdge {
+  node: Node
+  next: Node
+  previous: Node
+}
+
+input BlogPostFilterInput {
+  id: IDQueryOperatorInput
+  path: StringQueryOperatorInput
+  fileInfo: BlogPost_FileInfoFilterInput
+  content: StringQueryOperatorInput
+  excerpt: StringQueryOperatorInput
+  title: StringQueryOperatorInput
+  date: DateQueryOperatorInput
+  description: StringQueryOperatorInput
+  slug: StringQueryOperatorInput
+}
+
+input BlogPost_FileInfoFilterInput {
+  extension: StringQueryOperatorInput
+  directory: StringQueryOperatorInput
+  path: StringQueryOperatorInput
+  name: StringQueryOperatorInput
+}
+
+input DateQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: Date
+  # Filter by property not equal to provided value.
+  ne: Date
+  # Filter by property matching any of the provided values.
+  in: [Date]
+  # Filter by property not matching any of the provided values.
+  nin: [Date]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+  # Filter by property greater than provided value.
+  gt: Date
+  # Filter by property greater or equal to provided value.
+  gte: Date
+  # Filter by property less than provided value.
+  lt: Date
+  # Filter by property less than or equal to provided value.
+  lte: Date
+  # Filter by date property equal to provided date value.
+  dteq: Date
+  # Filter by property between provided values.
+  between: [Date]
+}
+
+type BlogPostConnection implements NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [BlogPostEdge]
+}
+
+type BlogPostEdge implements NodeConnectionEdge {
+  node: BlogPost
+  next: BlogPost
+  previous: BlogPost
+}
+
+type Speaker implements Node {
+  sessions(
+    sortBy: String
+    order: SortOrder = DESC
+    skip: Int = 0
+    sort: [SortArgument]
+    limit: Int
+  ): [Session]
+  id: ID!
+  path(to: String = "default"): String
+  fileInfo: Speaker_FileInfo
+  content: String
+  excerpt(
+    # Maximum length of generated excerpt (characters)
+    length: Int = 200
+  ): String
+  name: String
+  slug: String
+  image(
+    # Width
+    width: Int
+    # Height
+    height: Int
+    # Fit
+    fit: ImageFit = cover
+    # Quality (default: 75)
+    quality: Int
+    # Blur level for base64 string
+    blur: Int
+    # Background color for 'contain'
+    background: String
+  ): Image
+  description: String
+  sex: String
+  headings(
+    depth: RemarkHeadingLevels
+    stripTags: Boolean = true
+  ): [RemarkHeading]
+  timeToRead(
+    # Words per minute
+    speed: Int = 230
+  ): Int
+  belongsTo(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument!]
+    filter: BelongsToFilterInput
+  ): NodeBelongsTo
+}
+
+type Session implements Node {
+  speakers(
+    sortBy: String
+    order: SortOrder = DESC
+    skip: Int = 0
+    sort: [SortArgument]
+    limit: Int
+  ): [Speaker]
+  id: ID!
+  path(to: String = "default"): String
+  fileInfo: Session_FileInfo
+  content: String
+  excerpt(
+    # Maximum length of generated excerpt (characters)
+    length: Int = 200
+  ): String
+  title: String
+  date(
+    # Date format
+    format: String
+    # Locale
+    locale: String
+  ): Date
+  slug: String
+  description: String
+  youtube: String
+  issue: Int
+  headings(
+    depth: RemarkHeadingLevels
+    stripTags: Boolean = true
+  ): [RemarkHeading]
+  timeToRead(
+    # Words per minute
+    speed: Int = 230
+  ): Int
+  belongsTo(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument!]
+    filter: BelongsToFilterInput
+  ): NodeBelongsTo
+}
+
+type Session_FileInfo {
+  extension: String
+  directory: String
+  path: String
+  name: String
+}
+
+type Speaker_FileInfo {
+  extension: String
+  directory: String
+  path: String
+  name: String
+}
+
+enum ImageFit {
+  # Crop to cover both provided dimensions.
+  cover
+  # Embed within both provided dimensions.
+  contain
+  # Ignore the aspect ratio of the input and stretch to both provided dimensions.
+  fill
+  # Preserving aspect ratio, resize the image to be as large as possible while ensuring its dimensions are less than or equal to both those specified.
+  inside
+  # Preserving aspect ratio, resize the image to be as small as possible while ensuring its dimensions are greater than or equal to both those specified. Some of these values are based on the object-fit CSS property.
+  outside
+}
+
+scalar Image
+
+input SpeakerFilterInput {
+  id: IDQueryOperatorInput
+  sessions: SessionListQueryOperatorInput
+  path: StringQueryOperatorInput
+  fileInfo: Speaker_FileInfoFilterInput
+  content: StringQueryOperatorInput
+  excerpt: StringQueryOperatorInput
+  name: StringQueryOperatorInput
+  slug: StringQueryOperatorInput
+  image: ImageQueryOperatorInput
+  description: StringQueryOperatorInput
+  sex: StringQueryOperatorInput
+}
+
+input SessionListQueryOperatorInput {
+  id: IDQueryOperatorInput
+  # Use the id field instead.
+  size: Int
+  # Use the id field instead.
+  contains: [ID]
+  # Use the id field instead.
+  containsAny: [ID]
+  # Use the id field instead.
+  containsNone: [ID]
+}
+
+input Speaker_FileInfoFilterInput {
+  extension: StringQueryOperatorInput
+  directory: StringQueryOperatorInput
+  path: StringQueryOperatorInput
+  name: StringQueryOperatorInput
+}
+
+input ImageQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: Image
+  # Filter by property not equal to provided value.
+  ne: Image
+  # Filter by property matching any of the provided values.
+  in: [Image]
+  # Filter by property not matching any of the provided values.
+  nin: [Image]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+  # Filter by property matching provided regular expression.
+  regex: String
+}
+
+type SpeakerConnection implements NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [SpeakerEdge]
+}
+
+type SpeakerEdge implements NodeConnectionEdge {
+  node: Speaker
+  next: Speaker
+  previous: Speaker
+}
+
+input SessionFilterInput {
+  id: IDQueryOperatorInput
+  speakers: SpeakerListQueryOperatorInput
+  path: StringQueryOperatorInput
+  fileInfo: Session_FileInfoFilterInput
+  content: StringQueryOperatorInput
+  excerpt: StringQueryOperatorInput
+  title: StringQueryOperatorInput
+  date: DateQueryOperatorInput
+  slug: StringQueryOperatorInput
+  description: StringQueryOperatorInput
+  youtube: StringQueryOperatorInput
+  issue: IntQueryOperatorInput
+}
+
+input SpeakerListQueryOperatorInput {
+  id: IDQueryOperatorInput
+  # Use the id field instead.
+  size: Int
+  # Use the id field instead.
+  contains: [ID]
+  # Use the id field instead.
+  containsAny: [ID]
+  # Use the id field instead.
+  containsNone: [ID]
+}
+
+input Session_FileInfoFilterInput {
+  extension: StringQueryOperatorInput
+  directory: StringQueryOperatorInput
+  path: StringQueryOperatorInput
+  name: StringQueryOperatorInput
+}
+
+input IntQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: Int
+  # Filter by property not equal to provided value.
+  ne: Int
+  # Filter by property matching any of the provided values.
+  in: [Int]
+  # Filter by property not matching any of the provided values.
+  nin: [Int]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+  # Filter by property greater than provided value.
+  gt: Int
+  # Filter by property greater or equal to provided value.
+  gte: Int
+  # Filter by property less than provided value.
+  lt: Int
+  # Filter by property less than or equal to provided value.
+  lte: Int
+  # Filter by property between provided values.
+  between: [Int]
+}
+
+type SessionConnection implements NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [SessionEdge]
+}
+
+type SessionEdge implements NodeConnectionEdge {
+  node: Session
+  next: Session
+  previous: Session
+}
+
+type Sponsor implements Node {
+  id: ID!
+  path(to: String = "default"): String
+  fileInfo: Sponsor_FileInfo
+  content: String
+  excerpt(
+    # Maximum length of generated excerpt (characters)
+    length: Int = 200
+  ): String
+  slug: String
+  name: String
+  url: String
+  image(
+    # Width
+    width: Int
+    # Height
+    height: Int
+    # Fit
+    fit: ImageFit = cover
+    # Quality (default: 75)
+    quality: Int
+    # Blur level for base64 string
+    blur: Int
+    # Background color for 'contain'
+    background: String
+  ): Image
+  issues: [Int]
+  title: String
+  headings(
+    depth: RemarkHeadingLevels
+    stripTags: Boolean = true
+  ): [RemarkHeading]
+  timeToRead(
+    # Words per minute
+    speed: Int = 230
+  ): Int
+  belongsTo(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument!]
+    filter: BelongsToFilterInput
+  ): NodeBelongsTo
+}
+
+type Sponsor_FileInfo {
+  extension: String
+  directory: String
+  path: String
+  name: String
+}
+
+input SponsorFilterInput {
+  id: IDQueryOperatorInput
+  path: StringQueryOperatorInput
+  fileInfo: Sponsor_FileInfoFilterInput
+  content: StringQueryOperatorInput
+  excerpt: StringQueryOperatorInput
+  slug: StringQueryOperatorInput
+  name: StringQueryOperatorInput
+  url: StringQueryOperatorInput
+  image: ImageQueryOperatorInput
+  issues: IntListQueryOperatorInput
+  title: StringQueryOperatorInput
+}
+
+input Sponsor_FileInfoFilterInput {
+  extension: StringQueryOperatorInput
+  directory: StringQueryOperatorInput
+  path: StringQueryOperatorInput
+  name: StringQueryOperatorInput
+}
+
+input IntListQueryOperatorInput {
+  # Filter which have an array property of specified size.
+  size: Int
+  # Filter by property containing the provided value.
+  contains: [Int]
+  # Filter by property containing any of the provided values.
+  containsAny: [Int]
+  # Filter by property containing none of the provided values.
+  containsNone: [Int]
+}
+
+type SponsorConnection implements NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [SponsorEdge]
+}
+
+type SponsorEdge implements NodeConnectionEdge {
+  node: Sponsor
+  next: Sponsor
+  previous: Sponsor
+}
+
+type Issue implements Node {
+  id: ID!
+  tag: Int
+  description: String
+  dates(
+    # Date format
+    format: String
+    # Locale
+    locale: String
+  ): [Date]
+  belongsTo(
+    sortBy: String = "date"
+    order: SortOrder = DESC
+    # Defaults to 25 when page is provided.
+    perPage: Int
+    skip: Int = 0
+    limit: Int
+    page: Int
+    sort: [SortArgument!]
+    filter: BelongsToFilterInput
+  ): NodeBelongsTo
+}
+
+input IssueFilterInput {
+  id: IDQueryOperatorInput
+  tag: IntQueryOperatorInput
+  description: StringQueryOperatorInput
+  dates: DateListQueryOperatorInput
+}
+
+input DateListQueryOperatorInput {
+  # Filter which have an array property of specified size.
+  size: Int
+  # Filter by property containing the provided value.
+  contains: [Date]
+  # Filter by property containing any of the provided values.
+  containsAny: [Date]
+  # Filter by property containing none of the provided values.
+  containsNone: [Date]
+}
+
+type IssueConnection implements NodeConnection {
+  totalCount: Int!
+  pageInfo: PageInfo!
+  edges: [IssueEdge]
+}
+
+type IssueEdge implements NodeConnectionEdge {
+  node: Issue
+  next: Issue
+  previous: Issue
+}
+
+type Metadata {
+  siteName: String
+  siteDescription: String
+  siteUrl: String
+  pathPrefix: String
+  year: Int
+  currentIssue: Int
+}
+
+type Page {
+  path: String!
+  context: JSON!
+}
+
+# The `JSON` scalar type
+ represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
+scalar JSON
+
+input PageFilterInput {
+  path: StringQueryOperatorInput
+  context: JSONQueryOperatorInput
+}
+
+input JSONQueryOperatorInput {
+  # Filter by property of (strict) equality.
+  eq: JSON
+  # Filter by property not equal to provided value.
+  ne: JSON
+  # Filter by property matching any of the provided values.
+  in: [JSON]
+  # Filter by property not matching any of the provided values.
+  nin: [JSON]
+  # Filter nodes that contain the field, including nodes where the field value is null.
+  exists: Boolean
+  # Filter by property matching provided regular expression.
+  regex: String
+}
+
+scalar File
+

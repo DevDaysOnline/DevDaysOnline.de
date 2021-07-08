@@ -3,6 +3,8 @@ slug: axe-trading
 name: AxeTrading Ltd
 url: https://www.axetrading.com
 image: ./images/axe-trading.png
+issues:
+- 2004
 ---
 **AxeTrading** - The cutting edge of Fixed Income trading technology
  

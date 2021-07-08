@@ -40,7 +40,8 @@
           sessions {
             slug
             title,
-            path
+            path,
+            issue
           }
     
         }

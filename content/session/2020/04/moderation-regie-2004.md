@@ -10,6 +10,7 @@ speakers:
 slug: moderation-regie
 description: Die Moderation und Regie
 youtube: aBNTIhtnl0k
+issue: 2004
 ---
 
 Die Regie im Laufe des Tags übernimmt großteils Albert und wird unterstützt von Sia.

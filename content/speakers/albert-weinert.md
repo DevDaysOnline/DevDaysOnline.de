@@ -3,7 +3,7 @@ name: Albert Weinert
 slug: albert-weinert
 image: ./images/albert-weinert.jpg
 sessions:
-  - moderation-regie
+  - moderation-regie-2004
 
 description: Albert Weinert, freiberuflicher Software Entwickler mit dem Schwerpunkt ASP.NET Core, Azure und VueJs.
 ---

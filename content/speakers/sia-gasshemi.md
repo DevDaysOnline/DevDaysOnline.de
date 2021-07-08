@@ -3,7 +3,7 @@ name: Sia Gasshemi
 slug: sia-gasshemi
 image: ./images/sia-gasshemi.jpg
 sessions:
-  - moderation-regie
+  - moderation-regie-2004
 
 description: Siavash Ghassemi ist Softwarearchitekt und -entwickler. Er ist ein MVP für Microsoft Azure und ein expert für Xamarin.
 ---

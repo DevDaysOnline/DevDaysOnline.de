@@ -3,7 +3,7 @@ name: Michael Blume
 slug: michael-blume
 image: ./images/michael-blume.jpg
 sessions:
-  - moderation-regie
+  - moderation-regie-2004
 
 description: Michael Blume ist Gründer und Geschäftsführer der CurrentSystem 23 GmbH.
 ---

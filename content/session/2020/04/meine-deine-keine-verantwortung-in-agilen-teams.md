@@ -6,6 +6,7 @@ speakers:
 slug: meine-deine-keine-verantwortung-in-agilen-teams
 description: Verantwortung dafür, intensive praktische Impulse zu geben.W ir nehmen Bezug auf die Theorie und klären, unter welchen Voraussetzungen Menschen Verantwortung annehmen / ablehnen und ob Verantwortung teilbar ist. 
 youtube: BBlZ36t_4m8
+issue: 2004
 ---
 In dieser Session wird Verantwortung übernommen!
 

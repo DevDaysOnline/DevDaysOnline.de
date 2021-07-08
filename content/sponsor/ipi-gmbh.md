@@ -3,6 +3,8 @@ slug: ipi-gmbh
 name: IPI GmbH
 url: https://www.ipi-gmbh.com
 image: ./images/ipi-gmbh.png
+issues:
+- 2004
 ---
 Die IPI GmbH ist eine der größten Full-Service Intranet-Agenturen in Deutschland. Mit einem Team aus rund 70 festangestellten Mitarbeitern und der einzigartigen Kombination aus Informationsarchitekten, Systemexperten, Designspezialisten sowie Kommunikationsberatern fördert die IPI den Erfolg ihrer Kunden seit über 20 Jahren. 
 

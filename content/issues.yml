@@ -1,0 +1,9 @@
+ - tag: 2004
+   description: 'Support für Community Konferenzen'
+   dates:
+     - 2020-04-17
+     - 2020-04-18
+ - tag: 2009
+   description: 'F# den ganzen Tag'
+   dates:
+     - 2020-10-02

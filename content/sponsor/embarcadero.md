@@ -3,6 +3,8 @@ slug: embarcadero
 name: Embarcadero
 url: https://www.embarcadero.com/
 image: ./images/embarcadero.png
+issues:
+- 2004
 ---
 Embarcadero entwickelt leistungsstarke RAD-Tools für die moderne Softwareentwicklung von außergewöhnlicher Anwendungen, die täglich von Millionen Menschen verwendet werden. Wir kümmern uns intensiv um Programmierung und Programmiersprachen. 
 
