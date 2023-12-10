@@ -3,6 +3,8 @@ slug: progress
 name: Progress
 url: https://www.lise.de/
 image: ./images/progress.png
+issues:
+- 2004
 ---
 Progress (NASDAQ: PRGS) offers the leading platform for developing and deploying mission-critical business applications. The creator of the award-winning Telerik .NET and Kendo UI JavaScript user interface components/controls, reporting solutions and productivity tools, Progress offers all the tools developers needs to build high-performant modern apps with outstanding UI. Learn more about the Progress developer tools at:
 

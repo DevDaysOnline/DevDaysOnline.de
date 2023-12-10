@@ -3,7 +3,7 @@ name: Ulrike Stirnweiß
 slug: ulrike-stirnweiss
 image: ./images/ulrike-stirnweiss.jpg
 sessions:
-  - moderation-regie
+  - moderation-regie-2004
 sex: female
 description: Ulrike Stirnweiß ist Innovation Coach bei der INCLUSIFY AG.
 ---

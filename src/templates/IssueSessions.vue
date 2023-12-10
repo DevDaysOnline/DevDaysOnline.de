@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1 class="dev-card">Sessions</h1>
-    <div v-for="{ node } in sessions" :key="node._id">
+    <div v-for="{ node } in $page.allSession.edges" :key="node._id">
       <router-link :to="node.path">
         <h2 v-html="node.title" />
       </router-link>
@@ -22,8 +22,7 @@
           id
           title
           path,
-          issue,
-          description
+          description,
         }
       }
     }
@@ -34,11 +33,6 @@
 export default {
   metaInfo: {
     title: "Sessions"
-  },
-  computed: {
-    sessions() {
-      return this.$page.allSession.edges.filter(s=>s.node.issue === 2004); // fallback to first issue of dev-days-online
-    }
   }
 };
 </script>

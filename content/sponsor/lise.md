@@ -3,6 +3,8 @@ slug: lise-gmbh
 name: lise GmbH
 url: https://www.lise.de/
 image: ./images/lise-gmbh.jpg
+issues:
+- 2004
 ---
 Die lise GmbH ist seit 1999 Anbieter von individueller Softwareentwicklung in Köln und setzt vorwiegend auf agile Methoden. Die maßgeschneiderten Softwarelösungen zeichnen sich durch den Einsatz neuester Technologien, höchste Qualität und nicht zuletzt durch die kreativen Ideen der über 50 Mitarbeiter aus.
 

@@ -7,5 +7,6 @@ speakers:
 slug: devcouch-2004-1
 description: Interview mit Christian Giesswein
 youtube: QLvUTj8Nkvg
+issue: 2004
 ---
 Interview mit Christian Giesswein
